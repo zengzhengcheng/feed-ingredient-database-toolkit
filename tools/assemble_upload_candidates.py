@@ -19,7 +19,7 @@ GITHUB_DIRECTORIES = (
     "templates", "tests", "tools",
 )
 GITHUB_FILES = (
-    ".gitignore", "CODE_LICENSE_REVIEW_REQUIRED.txt", "pyproject.toml", "README.md", "run_gui.bat",
+    ".gitignore", "LICENSE", "pyproject.toml", "README.md", "run_gui.bat",
 )
 IGNORED_DIRECTORY_NAMES = {"__pycache__", ".pytest_cache", "release_working", "tmp", ".git"}
 IGNORED_SUFFIXES = {".pyc", ".pyo"}
@@ -52,7 +52,10 @@ def _copy_tree(source: Path, destination: Path) -> None:
 
 def _manifest(root: Path, path: Path) -> None:
     rows = []
-    for item in sorted(candidate for candidate in root.rglob("*") if candidate.is_file()):
+    for item in sorted(
+        candidate for candidate in root.rglob("*")
+        if candidate.is_file() and ".git" not in candidate.relative_to(root).parts
+    ):
         if item.resolve() == path.resolve():
             continue
         relative = item.relative_to(root).as_posix()
@@ -289,18 +292,24 @@ def assemble_github(source: Path, github: Path) -> dict[str, object]:
         """# GitHub repository metadata
 
 - Version date: 2026-08-14
+- Public release: v1.0.0
 - Repository: zengzhengcheng/feed-ingredient-database-toolkit
 - Repository URL: https://github.com/zengzhengcheng/feed-ingredient-database-toolkit
-- Visibility: private
+- Visibility: public
 - Default branch: main
 - Related article or project: Not applicable
 - Associated article setting: Do not set an associated article
-- Code license: Pending author decision; see CODE_LICENSE_REVIEW_REQUIRED.txt
+- Code license: MIT; see LICENSE
+- Release: https://github.com/zengzhengcheng/feed-ingredient-database-toolkit/releases/tag/v1.0.0
 """,
         encoding="utf-8",
     )
     (github / "RELEASE_BOUNDARY.md").write_text(
         """# Release boundary
+
+- Public software release: v1.0.0
+- Code license: MIT
+- Repository visibility: public
 
 This repository contains software, tests, editable read-only SQL query rules, blank contribution templates, seed dictionaries, and reproducible reuse examples. The formal 110 public workbooks, exchange tables, data dictionaries, and release SQLite database are data products distributed separately through ScienceDB (`ScienceDB URL: pending author release`).
 

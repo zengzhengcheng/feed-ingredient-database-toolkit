@@ -1,20 +1,21 @@
 {
   "version_date": "2026-08-14",
+  "software_release": "v1.0.0",
   "repository": {
     "owner": "zengzhengcheng",
     "name": "feed-ingredient-database-toolkit",
-    "expected_visibility": "private",
-    "expected_default_branch": "main",
-    "related_article_or_project": "Not applicable",
-    "code_license": "pending author decision",
-    "remote_verified": true,
     "repository_url": "https://github.com/zengzhengcheng/feed-ingredient-database-toolkit",
-    "readme_path": "README.md",
+    "release_url": "https://github.com/zengzhengcheng/feed-ingredient-database-toolkit/releases/tag/v1.0.0",
+    "expected_visibility": "public",
+    "expected_default_branch": "main",
+    "release_tag": "v1.0.0",
+    "related_article_or_project": "Not applicable",
+    "code_license": "MIT",
+    "license_path": "LICENSE",
     "issues_enabled": true,
     "wiki_enabled": false,
     "projects_enabled": false,
-    "homepage": "not set",
-    "pushed": true
+    "homepage": "not set"
   },
   "verified_environment": {
     "operating_system": "Windows 11 10.0.26200",
@@ -44,15 +45,17 @@
   "dependency_compatibility": {
     "saved_model_scikit_learn": "1.5.1",
     "optional_dependency_pin": "scikit-learn==1.5.1",
-    "saved_model_prediction_tests": "pass"
+    "saved_model_prediction_tests": "pass",
+    "models_retrained": false,
+    "model_results_modified": false
   },
   "documentation": {
     "english_readme": "README.md",
     "chinese_readme": "README_CN.md",
-    "relative_links_checked": 52,
+    "relative_links_checked": 53,
     "broken_relative_links": 0,
     "local_absolute_path_hits": 0,
-    "internal_or_old_platform_wording_hits": 0
+    "obsolete_private_or_pending_code_license_hits": 0
   },
   "repository_boundary": {
     "files_excluding_git": 121,
@@ -60,10 +63,11 @@
     "formal_or_source_workbooks": [],
     "allowed_blank_template": "templates/feed_ingredient_contribution_template.xlsx",
     "article_pdf_or_full_text_files": [],
+    "internal_submission_files": [],
     "source_image_or_ocr_files": [],
     "cache_or_temporary_files": [],
     "possible_secret_hits": [],
-    "license_file_present": false,
+    "license_file_present": true,
     "example_result_figures": 4,
     "trusted_example_model_artifacts": 8,
     "passed": true

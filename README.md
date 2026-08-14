@@ -2,6 +2,8 @@
 
 Tools for validating, reviewing, importing, querying, exporting, and extending feed-ingredient composition and animal-context nutritional-value datasets.
 
+Current public software release: **v1.0.0**.
+
 [中文说明](README_CN.md) · [User guide](docs/USER_GUIDE.md) · [Excel guide](docs/excel_entry_guide.md) · [Dictionary guide](docs/dictionary_guide.md)
 
 ## What the toolkit does
@@ -190,6 +192,6 @@ Related article or project: **Not applicable**.
 
 The ScienceDB record URL and dataset citation will be added after the author completes the repository record. Until then, do not substitute a local file path for a persistent dataset citation.
 
-## License status
+## License
 
-The author has not yet selected a code license. No open-source license is granted by this repository at this stage. See [CODE_LICENSE_REVIEW_REQUIRED.txt](CODE_LICENSE_REVIEW_REQUIRED.txt). The repository must remain private until the author confirms the license and explicitly authorizes publication.
+Released under the [MIT License](LICENSE). Copyright (c) 2026 zengzhengcheng.

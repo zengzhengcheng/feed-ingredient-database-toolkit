@@ -702,7 +702,7 @@ def build_release_package(
     output_directory: str | Path,
     duplicate_resolution_file: str | Path | None = None,
     rights_review_file: str | Path | None = None,
-    release_version: str = "v0.5-candidate",
+    release_version: str = "v1.0.0",
     data_license: str = "PENDING",
 ) -> ReleaseBuildResult:
     source_root = Path(historical_directory).resolve()

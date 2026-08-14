@@ -1,4 +1,4 @@
-SCHEMA_VERSION = "0.5.0"
+SCHEMA_VERSION = "1.0.0"
 
 
 SCHEMA_SQL = r"""

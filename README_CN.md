@@ -2,6 +2,8 @@
 
 本软件用于检查、核对、导入、查询、导出和持续扩充饲料原料组成及动物营养价值数据。
 
+当前公开软件版本：**v1.0.0**。
+
 [English README](README.md) · [完整使用指南](docs/USER_GUIDE.md) · [Excel 填写说明](docs/excel_entry_guide.md) · [词典说明](docs/dictionary_guide.md)
 
 ## 软件解决什么问题
@@ -183,6 +185,6 @@ conda run -n pyqt312 python -m pytest -q
 - [发布与重建指南](docs/release_guide.md)
 - [SQL 查询规则](examples/query_rules)
 
-## 许可状态
+## 许可证
 
-作者尚未确认代码许可，目前没有授予开源许可证。仓库在作者确认许可并明确授权前保持 private。相关提醒见 [CODE_LICENSE_REVIEW_REQUIRED.txt](CODE_LICENSE_REVIEW_REQUIRED.txt)。
+本软件依据 [MIT License](LICENSE) 开源发布。Copyright (c) 2026 zengzhengcheng。

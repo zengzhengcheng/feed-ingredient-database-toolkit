@@ -1,3 +1,0 @@
-The source-code license has not yet been confirmed by the authors.
-
-The author has not yet selected a code license. This private GitHub repository does not grant an open-source license at this stage. Do not add a LICENSE file, change the repository to public, or describe the software as open source until the author confirms the license and explicitly authorizes publication.

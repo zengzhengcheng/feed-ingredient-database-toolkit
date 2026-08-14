@@ -78,7 +78,7 @@ def main(argv: list[str] | None = None) -> int:
     p_build_release.add_argument("output_directory")
     p_build_release.add_argument("--duplicate-resolution")
     p_build_release.add_argument("--rights-review")
-    p_build_release.add_argument("--release-version", default="v0.5-candidate")
+    p_build_release.add_argument("--release-version", default="v1.0.0")
     p_build_release.add_argument("--data-license", default="PENDING")
     p_check_release = sub.add_parser("check-release", help="validate a generated release package")
     p_check_release.add_argument("release_directory")

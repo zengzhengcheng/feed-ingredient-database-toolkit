@@ -1,6 +1,6 @@
 [project]
 name = "historical-feed-database"
-version = "0.5.0"
+version = "1.0.0"
 description = "Import, validate, query, and curate an extensible feed ingredient database."
 requires-python = ">=3.10"
 dependencies = ["openpyxl>=3.1", "PyQt6>=6.6,<6.12"]

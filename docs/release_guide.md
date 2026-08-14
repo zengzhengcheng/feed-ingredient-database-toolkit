@@ -8,17 +8,17 @@
 conda run -n pyqt312 feeddb build-release `
   path\to\source_workbooks `
   database\contribution_workspace.sqlite `
-  release_working\v0.5-candidate `
+  release_working\v1.0.0 `
   --duplicate-resolution config\duplicate_resolution.csv `
   --rights-review config\rights_review.csv `
-  --release-version v0.5-candidate `
+  --release-version v1.0.0 `
   --data-license "CC BY 4.0"
 ```
 
 `check-release` 可以在人工修改权利审查或许可后重新运行：
 
 ```powershell
-conda run -n pyqt312 feeddb check-release release_working\v0.5-candidate
+conda run -n pyqt312 feeddb check-release release_working\v1.0.0
 ```
 
 构建命令拒绝写入非空输出目录，避免覆盖已有候选版。需要重新构建时应使用新的可读版本目录。
