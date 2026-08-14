@@ -100,8 +100,8 @@ pyproject.toml,593,"repository metadata, installation, launch, or validation fil
 README.md,10918,"repository metadata, installation, launch, or validation file",2026-08-14
 README_CN.md,9225,"repository metadata, installation, launch, or validation file",2026-08-14
 RELEASE_BOUNDARY.md,651,"repository metadata, installation, launch, or validation file",2026-08-14
-RELEASE_VALIDATION.json,2226,"repository metadata, installation, launch, or validation file",2026-08-14
-REPOSITORY_METADATA.md,752,"repository metadata, installation, launch, or validation file",2026-08-14
+RELEASE_VALIDATION.json,2512,"repository metadata, installation, launch, or validation file",2026-08-14
+REPOSITORY_METADATA.md,808,"repository metadata, installation, launch, or validation file",2026-08-14
 run_gui.bat,1055,"repository metadata, installation, launch, or validation file",2026-08-14
 source_auditor/auditor.py,34292,standalone read-only source-audit utility,2026-08-14
 source_auditor/default_rules.json,1406,standalone read-only source-audit utility,2026-08-14

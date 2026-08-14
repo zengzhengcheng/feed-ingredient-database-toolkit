@@ -6,7 +6,15 @@
     "expected_visibility": "private",
     "expected_default_branch": "main",
     "related_article_or_project": "Not applicable",
-    "code_license": "pending author decision"
+    "code_license": "pending author decision",
+    "remote_verified": true,
+    "repository_url": "https://github.com/zengzhengcheng/feed-ingredient-database-toolkit",
+    "readme_path": "README.md",
+    "issues_enabled": true,
+    "wiki_enabled": false,
+    "projects_enabled": false,
+    "homepage": "not set",
+    "pushed": true
   },
   "verified_environment": {
     "operating_system": "Windows 11 10.0.26200",

@@ -8,6 +8,9 @@
 - Description: Tools for validating, importing, querying, and extending feed ingredient composition and nutritional-value datasets.
 - Topics: `feed-ingredients`, `animal-nutrition`, `sqlite`, `pyqt6`, `data-curation`, `excel-import`, `data-provenance`
 - Homepage: Not set; pending the ScienceDB URL or project page
+- Issues: Enabled
+- Wiki: Disabled
+- Projects: Disabled
 - Related article or project: Not applicable
 - Associated article setting: Do not set an associated article
 - Code license: Pending author decision; see CODE_LICENSE_REVIEW_REQUIRED.txt
