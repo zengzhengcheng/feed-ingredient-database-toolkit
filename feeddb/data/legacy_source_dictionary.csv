@@ -1,0 +1,224 @@
+﻿category,context,raw_term,canonical_term,source_table,source_id,name_cn,name_en,terminology_type,status,note
+ingredient,,corn dried distillers grains,distillers dried grains,nameManager/articleNameDict.py,DDG,,distillers dried grains,source_code_alias,approved,Alias used by the historical Python ingestion code
+ingredient,,ddgs,Corn DDGS,nameManager/articleNameDict.py,Corn DDGS,,Corn DDGS,source_code_alias,approved,Alias used by the historical Python ingestion code
+ingredient,,dried distillers grain,distillers dried grains,nameManager/articleNameDict.py,DDG,,distillers dried grains,source_code_alias,approved,Alias used by the historical Python ingestion code
+ingredient,,faba beans,Faba Bean,nameManager/articleNameDict.py,Faba Bean,,Faba Bean,source_code_alias,approved,Alias used by the historical Python ingestion code
+ingredient,,high oil corn,Corn,nameManager/articleNameDict.py,Corn,,Corn,source_code_alias,approved,Alias used by the historical Python ingestion code
+ingredient,,Rice Bran,full fat rice bran,nameManager/articleNameDict.py,Full Fat Rice Bran,,full fat rice bran,source_code_alias,approved,Alias used by the historical Python ingestion code
+ingredient,,yellow corn,Corn,nameManager/articleNameDict.py,Corn,,Corn,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,acid detergent fibre,ADF,nameManager/articleNameDict.py,ADF,,ADF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,argenine,Arginine,nameManager/articleNameDict.py,Arginine,,Arginine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,asparagine,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,asparitc acid,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,aspartate,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,aspartic,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,aspartic acid,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,crude ash,ash,nameManager/articleNameDict.py,Ash,,ash,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,crude protrin,CP,nameManager/articleNameDict.py,CP,,CP,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,cystine,Cysteine,nameManager/articleNameDict.py,Cysteine,,Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,gross energy,GE,nameManager/articleNameDict.py,GE,,GE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,i eu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,i le,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,ieu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,ieucine,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,iie,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,insoluble dietary fiber,IDF,nameManager/articleNameDict.py,IDF,,IDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,isolucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,l eu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,l eucine,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,lle,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,lsoleucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,lsolucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,magnesium,Mg,nameManager/articleNameDict.py,Mg,,Mg,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,met + cys,Methionine + Cysteine,nameManager/articleNameDict.py,Methionine + Cysteine,,Methionine + Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,neural detergent fiber,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,neutra detergent fiber,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,neutral detergent fibre,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,organic matter,OM,nameManager/articleNameDict.py,OM,,OM,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,origin matter,OM,nameManager/articleNameDict.py,OM,,OM,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,Phe,Phenylalanine,nameManager/articleNameDict.py,Phenylalanine,,Phenylalanine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,potassium,K,nameManager/articleNameDict.py,K,,K,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,sodium,Na,nameManager/articleNameDict.py,Na,,Na,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,soluble dietary fiber,SDF,nameManager/articleNameDict.py,SDF,,SDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,total amino acid,Total AA,nameManager/articleNameDict.py,Total AA,,Total AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,total amino acids,Total AA,nameManager/articleNameDict.py,Total AA,,Total AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,total dietary fiber,TDF,nameManager/articleNameDict.py,TDF,,TDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,total dispensable amino acids,Dispensable AA,nameManager/articleNameDict.py,Dispensable AA,,Dispensable AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,total indispensable amino acids,Indispensable AA,nameManager/articleNameDict.py,Indispensable AA,,Indispensable AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,total methionine + cysteine,Methionine + Cysteine,nameManager/articleNameDict.py,Methionine + Cysteine,,Methionine + Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,Total Starch,Starch,nameManager/articleNameDict.py,Starch,,Starch,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,AID,totalaa,Total AA,nameManager/articleNameDict.py,Total AA,,Total AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,acid detergent fiber,ADF,nameManager/articleNameDict.py,ADF,,ADF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,acid detergent fibre,ADF,nameManager/articleNameDict.py,ADF,,ADF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,acid hydrolysis fat,AEE,nameManager/articleNameDict.py,AEE,,AEE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,acid hydrolyzed ether extract,AEE,nameManager/articleNameDict.py,AEE,,AEE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,ahee,AEE,nameManager/articleNameDict.py,AEE,,AEE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,argenine,Arginine,nameManager/articleNameDict.py,Arginine,,Arginine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,asparagine,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,asparitc acid,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,aspartate,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,aspartic,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,aspartic acid,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,calcium,Ca,nameManager/articleNameDict.py,Ca,,Ca,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,crude ash,Ash,nameManager/articleNameDict.py,Ash,,Ash,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,crude fat,EE,nameManager/articleNameDict.py,EE,,EE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,crude protrin,CP,nameManager/articleNameDict.py,CP,,CP,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,cystine,Cysteine,nameManager/articleNameDict.py,Cysteine,,Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,ether extractable fat,EE,nameManager/articleNameDict.py,EE,,EE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,fat,EE,nameManager/articleNameDict.py,EE,,EE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,gross energy,GE,nameManager/articleNameDict.py,GE,,GE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,i eu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,i le,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,ieu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,ieucine,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,iie,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,insoluble dietary fiber,IDF,nameManager/articleNameDict.py,IDF,,IDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,isolucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,l eu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,l eucine,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,lle,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,lsoleucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,lsolucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,magnesium,Mg,nameManager/articleNameDict.py,Mg,,Mg,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,met + cys,Methionine + Cysteine,nameManager/articleNameDict.py,Methionine + Cysteine,,Methionine + Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,neural detergent fiber,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,neutra detergent fiber,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,neutral detergent fiber,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,neutral detergent fibre,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,organic matter,OM,nameManager/articleNameDict.py,OM,,OM,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,origin matter,OM,nameManager/articleNameDict.py,OM,,OM,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,phosphorous,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,phosphorus,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,potassium,K,nameManager/articleNameDict.py,K,,K,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,sodium,Na,nameManager/articleNameDict.py,Na,,Na,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,soluble dietary fiber,SDF,nameManager/articleNameDict.py,SDF,,SDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,total dietary fiber,TDF,nameManager/articleNameDict.py,TDF,,TDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,total methionine + cysteine,Methionine + Cysteine,nameManager/articleNameDict.py,Methionine + Cysteine,,Methionine + Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,total p,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,Total Phosphorous,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,total phosphorus,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,ATTD,Total Starch,Starch,nameManager/articleNameDict.py,Starch,,Starch,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,acid detergent fibre,ADF,nameManager/articleNameDict.py,ADF,,ADF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,argenine,Arginine,nameManager/articleNameDict.py,Arginine,,Arginine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,asparagine,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,asparitc acid,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,aspartate,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,aspartic,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,aspartic acid,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,crude ash,ash,nameManager/articleNameDict.py,Ash,,ash,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,crude protrin,CP,nameManager/articleNameDict.py,CP,,CP,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,cystine,Cysteine,nameManager/articleNameDict.py,Cysteine,,Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,gross energy,GE,nameManager/articleNameDict.py,GE,,GE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,i eu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,i le,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,ieu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,ieucine,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,iie,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,insoluble dietary fiber,IDF,nameManager/articleNameDict.py,IDF,,IDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,isolucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,l eu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,l eucine,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,lle,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,lsoleucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,lsolucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,magnesium,Mg,nameManager/articleNameDict.py,Mg,,Mg,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,met + cys,Methionine + Cysteine,nameManager/articleNameDict.py,Methionine + Cysteine,,Methionine + Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,neural detergent fiber,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,neutra detergent fiber,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,neutral detergent fibre,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,organic matter,OM,nameManager/articleNameDict.py,OM,,OM,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,origin matter,OM,nameManager/articleNameDict.py,OM,,OM,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,potassium,K,nameManager/articleNameDict.py,K,,K,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,sodium,Na,nameManager/articleNameDict.py,Na,,Na,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,soluble dietary fiber,SDF,nameManager/articleNameDict.py,SDF,,SDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,total amino acid,Total AA,nameManager/articleNameDict.py,Total AA,,Total AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,total amino acids,Total AA,nameManager/articleNameDict.py,Total AA,,Total AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,total dietary fiber,TDF,nameManager/articleNameDict.py,TDF,,TDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,total dispensable amino acids,Dispensable AA,nameManager/articleNameDict.py,Dispensable AA,,Dispensable AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,total indispensable amino acids,Indispensable AA,nameManager/articleNameDict.py,Indispensable AA,,Indispensable AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,total methionine + cysteine,Methionine + Cysteine,nameManager/articleNameDict.py,Methionine + Cysteine,,Methionine + Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,Total Starch,Starch,nameManager/articleNameDict.py,Starch,,Starch,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,SID,totalaa,Total AA,nameManager/articleNameDict.py,Total AA,,Total AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,STTD,calcium,Ca,nameManager/articleNameDict.py,Ca,,Ca,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,STTD,phosphorous,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,STTD,phosphorus,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,STTD,total p,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,STTD,Total Phosphorous,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,STTD,total phosphorus,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,acid detergent fibre,ADF,nameManager/articleNameDict.py,ADF,,ADF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,acid hydrolysis fat,AEE,nameManager/articleNameDict.py,AEE,,AEE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,acid hydrolyzed ether extract,AEE,nameManager/articleNameDict.py,AEE,,AEE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,ahee,AEE,nameManager/articleNameDict.py,AEE,,AEE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,argenine,Arginine,nameManager/articleNameDict.py,Arginine,,Arginine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,asparagine,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,asparitc acid,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,aspartate,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,aspartic,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,aspartic acid,Asparitc,nameManager/articleNameDict.py,Asparitc,,Asparitc,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,crude ash,Ash,nameManager/articleNameDict.py,Ash,,Ash,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,crude fat,EE,nameManager/articleNameDict.py,EE,,EE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,crude protrin,CP,nameManager/articleNameDict.py,CP,,CP,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,cystine,Cysteine,nameManager/articleNameDict.py,Cysteine,,Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,ether extractable fat,EE,nameManager/articleNameDict.py,EE,,EE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,fat,EE,nameManager/articleNameDict.py,EE,,EE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,glutamate,Glutamic acid,nameManager/articleNameDict.py,Glutamic,,Glutamic acid,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,glutamic acid + glutamine,Glutamic acid,nameManager/articleNameDict.py,Glutamic,,Glutamic acid,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,glutamine,Glutamic acid,nameManager/articleNameDict.py,Glutamic,,Glutamic acid,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,gross energy,GE,nameManager/articleNameDict.py,GE,,GE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,i eu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,i le,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,ieu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,ieucine,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,iie,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,insoluble dietary fiber,IDF,nameManager/articleNameDict.py,IDF,,IDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,isolucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,l eu,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,l eucine,Leucine,nameManager/articleNameDict.py,Leucine,,Leucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,lle,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,lsoleucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,lsolucine,Isoleucine,nameManager/articleNameDict.py,Isoleucine,,Isoleucine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,magnesium,Mg,nameManager/articleNameDict.py,Mg,,Mg,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,met + cys,Methionine + Cysteine,nameManager/articleNameDict.py,Methionine + Cysteine,,Methionine + Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,mm,Mineral Matter,nameManager/articleNameDict.py,Mineral Matter,,Mineral Matter,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,neural detergent fiber,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,neutra detergent fiber,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,neutral detergent fibre,NDF,nameManager/articleNameDict.py,NDF,,NDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,nitrogen free extract,NFE,nameManager/articleNameDict.py,NFE,,NFE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,non phytate p,Nonphytate P,nameManager/articleNameDict.py,Nonphytate P,,Nonphytate P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,non starch polysaccharides,NSP,nameManager/articleNameDict.py,NSP,,NSP,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,Non-starch polysaccharides,NSP,nameManager/articleNameDict.py,NSP,,NSP,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,NSP total,NSP,nameManager/articleNameDict.py,NSP,,NSP,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,organic matter,OM,nameManager/articleNameDict.py,OM,,OM,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,origin matter,OM,nameManager/articleNameDict.py,OM,,OM,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,phosphorous,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,phytate bound p,Phytic acid phosphorus,nameManager/articleNameDict.py,Phytate P,,Phytic acid phosphorus,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,phytic acid,Phytic acid phosphorus,nameManager/articleNameDict.py,Phytate,,Phytic acid phosphorus,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,potassium,K,nameManager/articleNameDict.py,K,,K,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,sodium,Na,nameManager/articleNameDict.py,Na,,Na,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,soluble dietary fiber,SDF,nameManager/articleNameDict.py,SDF,,SDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,total amino acid,Total AA,nameManager/articleNameDict.py,Total AA,,Total AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,total amino acids,Total AA,nameManager/articleNameDict.py,Total AA,,Total AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,total dietary fiber,TDF,nameManager/articleNameDict.py,TDF,,TDF,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,total dispensable amino acids,Dispensable AA,nameManager/articleNameDict.py,Dispensable AA,,Dispensable AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,total indispensable amino acids,Indispensable AA,nameManager/articleNameDict.py,Indispensable AA,,Indispensable AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,total methionine + cysteine,Methionine + Cysteine,nameManager/articleNameDict.py,Methionine + Cysteine,,Methionine + Cysteine,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,total p,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,total phosphorus,P,nameManager/articleNameDict.py,P,,P,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,totalaa,Total AA,nameManager/articleNameDict.py,Total AA,,Total AA,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,trypsin inhibitor (tiu/mg),Trypsin inhabitor,nameManager/articleNameDict.py,Tiu,,Trypsin inhabitor,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,"trypsin inhibitor units, mg/kg",Trypsin inhabitor,nameManager/articleNameDict.py,Tiu,,Trypsin inhabitor,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,"trypsin inhibitor,tiu/mg",Trypsin inhabitor,nameManager/articleNameDict.py,Tiu,,Trypsin inhabitor,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,composition,"trypsin inhibitors,unit/mg",Trypsin inhabitor,nameManager/articleNameDict.py,Tiu,,Trypsin inhabitor,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,energy,digestible energy,DE,nameManager/articleNameDict.py,DE,,DE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,energy,men,AMEn,nameManager/articleNameDict.py,AMEN,,AMEn,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,energy,metabolisable energy,ME,nameManager/articleNameDict.py,ME,,ME,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,energy,metabolism energy,ME,nameManager/articleNameDict.py,ME,,ME,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,energy,metabolizable energy,ME,nameManager/articleNameDict.py,ME,,ME,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,energy,net energy,NE,nameManager/articleNameDict.py,NE,,NE,source_code_alias,approved,Alias used by the historical Python ingestion code
+metric,energy,nitrogen corrected metabolizable energy,AMEn,nameManager/articleNameDict.py,AMEN,,AMEn,source_code_alias,approved,Alias used by the historical Python ingestion code
+species,,barrow,Pig,nameManager/articleNameDict.py,Pig,,Pig,source_code_alias,approved,Alias used by the historical Python ingestion code
+species,,broiler,Chicken,nameManager/articleNameDict.py,Chicken,,Chicken,source_code_alias,approved,Alias used by the historical Python ingestion code
+species,,Chicken,Chicken,nameManager/articleNameDict.py,Chicken,,Chicken,source_code_alias,approved,Alias used by the historical Python ingestion code
+species,,hen,Chicken,nameManager/articleNameDict.py,Chicken,,Chicken,source_code_alias,approved,Alias used by the historical Python ingestion code
+species,,laying hen,Chicken,nameManager/articleNameDict.py,Chicken,,Chicken,source_code_alias,approved,Alias used by the historical Python ingestion code
+species,,Pig,Pig,nameManager/articleNameDict.py,Pig,,Pig,source_code_alias,approved,Alias used by the historical Python ingestion code

@@ -1,0 +1,65 @@
+raw_unit,canonical_unit,status,note
+%,%,approved,Percent
+g/kg,g/kg,approved,Grams per kilogram
+mg/kg,mg/kg,approved,Milligrams per kilogram
+µg/kg,µg/kg,approved,Micrograms per kilogram
+μg/kg,µg/kg,approved,Greek mu variant
+ug/kg,µg/kg,approved,ASCII micro variant
+kJ/kg,kJ/kg,approved,Kilojoules per kilogram
+MJ/kg,MJ/kg,approved,Megajoules per kilogram
+Mcal/kg,Mcal/kg,approved,Megacalories per kilogram
+kcal/kg,kcal/kg,approved,Kilocalories per kilogram
+ppm,ppm,approved,Parts per million
+ppb,ppb,approved,Parts per billion
+IU/kg,IU/kg,approved,International units per kilogram
+CFU/g,CFU/g,approved,Colony-forming units per gram
+FTU/kg,FTU/kg,approved,Phytase units per kilogram
+TIU/mg,TIU/mg,approved,Trypsin inhibitor units per milligram
+µmol/g,µmol/g,approved,Micromoles per gram
+μmol/g,µmol/g,approved,Greek mu variant
+umol/g,µmol/g,approved,ASCII micro variant
+HAU/mg,HAU/mg,approved,Hemagglutination units per milligram
+mmol/kg,mmol/kg,approved,Millimoles per kilogram
+g/cm3,g/cm3,approved,Grams per cubic centimetre
+g/L,g/L,approved,Grams per litre
+g/g,g/g,approved,Grams per gram
+unit/mg,unit/mg,approved,Reported activity units per milligram
+units/mg,unit/mg,approved,Plural activity-unit spelling
+TIUS,unit/mg,approved,Trypsin inhibitor unit abbreviation used as a unit label
+mg/g,mg/g,approved,Milligrams per gram
+g,g,approved,Grams
+µm,µm,approved,Micrometres
+μm,µm,approved,Greek mu variant for micrometres
+um,µm,approved,ASCII micro variant for micrometres
+pm,µm,approved,Source OCR variant confirmed to mean micrometres in particle-size labels
+mEq/kg,mEq/kg,approved,Milliequivalents per kilogram
+mEq/Kg,mEq/kg,approved,Capitalization variant
+meq/kg,mEq/kg,approved,Lowercase variant
+phytase unit/kg,FTU/kg,approved,Reported phytase activity units per kilogram
+phytase units/kg,FTU/kg,approved,Plural phytase activity-unit spelling
+pH unit rise,pH unit rise,approved,Urease activity expressed as pH-unit rise
+pH rise,pH unit rise,approved,Short urease activity unit label
+1,1,approved,Dimensionless quantity
+dimensionless,1,approved,Dimensionless quantity label
+％,%,approved,Full-width percent sign
+percent,%,approved,Written percent label
+g/100g,%,approved,Grams per 100 grams is numerically percent
+g kg-1,g/kg,approved,Negative-exponent spelling
+g kg−1,g/kg,approved,Unicode-minus exponent spelling
+g·kg-1,g/kg,approved,Middle-dot negative-exponent spelling
+g·kg−1,g/kg,approved,Middle-dot Unicode-minus spelling
+mg kg-1,mg/kg,approved,Negative-exponent spelling
+mg kg−1,mg/kg,approved,Unicode-minus exponent spelling
+mg·kg−1,mg/kg,approved,Middle-dot Unicode-minus spelling
+µg kg-1,µg/kg,approved,Negative-exponent spelling
+µg kg−1,µg/kg,approved,Unicode-minus exponent spelling
+μg kg−1,µg/kg,approved,Greek-mu Unicode-minus spelling
+ug kg-1,µg/kg,approved,ASCII-micro negative-exponent spelling
+kJ kg-1,kJ/kg,approved,Negative-exponent spelling
+kJ kg−1,kJ/kg,approved,Unicode-minus exponent spelling
+MJ kg-1,MJ/kg,approved,Negative-exponent spelling
+MJ kg−1,MJ/kg,approved,Unicode-minus exponent spelling
+kcal kg-1,kcal/kg,approved,Negative-exponent spelling
+kcal kg−1,kcal/kg,approved,Unicode-minus exponent spelling
+Mcal kg-1,Mcal/kg,approved,Negative-exponent spelling
+Mcal kg−1,Mcal/kg,approved,Unicode-minus exponent spelling

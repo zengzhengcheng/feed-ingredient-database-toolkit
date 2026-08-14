@@ -1,0 +1,243 @@
+category,context,raw_term,canonical_term,status,note
+metric,composition,Asp,Aspartic acid,approved,Scientific correction of historical misspelling
+metric,composition,Asp%,Aspartic acid,approved,Scientific correction of historical misspelling
+metric,composition,Asparitc,Aspartic acid,approved,Preserve misspelling as an alias only
+metric,composition,asparitc acid,Aspartic acid,approved,Preserve misspelling as an alias only
+metric,composition,aspartate,Aspartic acid,approved,Approved biochemical synonym
+metric,composition,aspartic,Aspartic acid,approved,Approved abbreviated name
+metric,composition,aspartic acid,Aspartic acid,approved,Canonical biochemical name
+metric,composition,天冬氨酸,Aspartic acid,approved,Chinese biochemical name
+metric,composition,"天冬氨酸, %",Aspartic acid,approved,Chinese alias with embedded unit
+metric,composition,"天冬氨酸,%",Aspartic acid,approved,Chinese alias with embedded unit
+metric,composition,Asparagine,Aspartic acid,approved,Acid-hydrolysis reporting combines Asn with Asp; user-confirmed analytical mapping
+metric,AID,Asp,Aspartic acid,approved,Scientific correction of historical misspelling
+metric,AID,Asp%,Aspartic acid,approved,Scientific correction of historical misspelling
+metric,AID,Asparitc,Aspartic acid,approved,Preserve misspelling as an alias only
+metric,AID,asparitc acid,Aspartic acid,approved,Preserve misspelling as an alias only
+metric,AID,aspartate,Aspartic acid,approved,Approved biochemical synonym
+metric,AID,aspartic,Aspartic acid,approved,Approved abbreviated name
+metric,AID,aspartic acid,Aspartic acid,approved,Canonical biochemical name
+metric,AID,天冬氨酸,Aspartic acid,approved,Chinese biochemical name
+metric,AID,"天冬氨酸, %",Aspartic acid,approved,Chinese alias with embedded unit
+metric,AID,"天冬氨酸,%",Aspartic acid,approved,Chinese alias with embedded unit
+metric,AID,Asparagine,Aspartic acid,approved,Acid-hydrolysis reporting combines Asn with Asp; user-confirmed analytical mapping
+metric,SID,Asp,Aspartic acid,approved,Scientific correction of historical misspelling
+metric,SID,Asp%,Aspartic acid,approved,Scientific correction of historical misspelling
+metric,SID,Asparitc,Aspartic acid,approved,Preserve misspelling as an alias only
+metric,SID,asparitc acid,Aspartic acid,approved,Preserve misspelling as an alias only
+metric,SID,aspartate,Aspartic acid,approved,Approved biochemical synonym
+metric,SID,aspartic,Aspartic acid,approved,Approved abbreviated name
+metric,SID,aspartic acid,Aspartic acid,approved,Canonical biochemical name
+metric,SID,天冬氨酸,Aspartic acid,approved,Chinese biochemical name
+metric,SID,"天冬氨酸, %",Aspartic acid,approved,Chinese alias with embedded unit
+metric,SID,"天冬氨酸,%",Aspartic acid,approved,Chinese alias with embedded unit
+metric,SID,Asparagine,Aspartic acid,approved,Acid-hydrolysis reporting combines Asn with Asp; user-confirmed analytical mapping
+metric,ATTD,Asp,Aspartic acid,approved,Scientific correction of historical misspelling
+metric,ATTD,Asp%,Aspartic acid,approved,Scientific correction of historical misspelling
+metric,ATTD,Asparitc,Aspartic acid,approved,Preserve misspelling as an alias only
+metric,ATTD,asparitc acid,Aspartic acid,approved,Preserve misspelling as an alias only
+metric,ATTD,aspartate,Aspartic acid,approved,Approved biochemical synonym
+metric,ATTD,aspartic,Aspartic acid,approved,Approved abbreviated name
+metric,ATTD,aspartic acid,Aspartic acid,approved,Canonical biochemical name
+metric,ATTD,天冬氨酸,Aspartic acid,approved,Chinese biochemical name
+metric,ATTD,"天冬氨酸, %",Aspartic acid,approved,Chinese alias with embedded unit
+metric,ATTD,"天冬氨酸,%",Aspartic acid,approved,Chinese alias with embedded unit
+metric,ATTD,Asparagine,Aspartic acid,approved,Acid-hydrolysis reporting combines Asn with Asp; user-confirmed analytical mapping
+metric,composition,Glutamate,Glutamic acid,approved,Acid-hydrolysis reporting combines Glu and Gln; user-confirmed analytical mapping
+metric,composition,Glutamine,Glutamic acid,approved,Acid-hydrolysis reporting combines Glu and Gln; user-confirmed analytical mapping
+metric,composition,Glutamic acid,Glutamic acid,approved,Canonical amino-acid name
+metric,composition,L _eucine,Leucine,approved,User-confirmed spacing and OCR correction
+ingredient,,soybeanmeal,soybean meal,approved,User-confirmed compact spelling of soybean meal
+metric,composition,Corn particle size,Corn particle size,approved,User-confirmed independent metric
+metric,composition,DGM,Geometric mean diameter (DGM),approved,User-confirmed independent metric
+metric,composition,Degree of gelatinization,Degree of gelatinization,approved,User-confirmed independent metric
+metric,composition,Gelatinized starch,Gelatinized starch,approved,User-confirmed independent metric
+metric,composition,Density,Density,approved,User-confirmed independent metric
+metric,composition,Kernel density,Kernel density,approved,User-confirmed independent metric
+metric,composition,Deoxynivalenol,Deoxynivalenol,approved,User-confirmed independent metric
+metric,composition,"Docosahexaenoic, 22:6",Docosahexaenoic 22:6,approved,User-confirmed independent metric
+metric,composition,Electrolyte,Electrolyte,approved,User-confirmed independent metric
+metric,composition,Free fatty acids,Free fatty acids,approved,User-confirmed independent metric
+metric,composition,Fructose,Fructose,approved,User-confirmed independent metric
+metric,composition,Glucose,Glucose,approved,User-confirmed independent metric
+metric,composition,Maltose,Maltose,approved,User-confirmed independent metric
+metric,composition,Fumonisin B,Fumonisin B,candidate,Source rows may represent B1/B2; keep unresolved until the user finishes source review
+metric,composition,Fumonisin B3,Fumonisin B3,approved,User-confirmed independent metric
+metric,composition,Fumonisin B1,Fumonisin B1,approved,Source-corrected and user-confirmed mycotoxin
+metric,composition,Fumonisin B2,Fumonisin B2,approved,Source-corrected and user-confirmed mycotoxin
+metric,composition,"Galactose, I-NSP",Galactose I-NSP,approved,User-confirmed independent metric
+metric,composition,"Galactose, S-NSP",Galactose S-NSP,approved,User-confirmed independent metric
+metric,composition,"Galactose, T-NSP",Galactose T-NSP,approved,User-confirmed independent metric
+metric,composition,"Glucose, I-NSP",Glucose I-NSP,approved,User-confirmed independent metric
+metric,composition,"Glucose, S-NSP",Glucose S-NSP,approved,User-confirmed independent metric
+metric,composition,"Glucose, T-NSP",Glucose T-NSP,approved,User-confirmed independent metric
+metric,composition,Insoluble NSP,Insoluble non-starch polysaccharides,approved,User-confirmed alias merge
+metric,composition,Insoluble NSPs,Insoluble non-starch polysaccharides,approved,User-confirmed plural alias merge
+metric,composition,NSP insoluble,Insoluble non-starch polysaccharides,approved,User-confirmed word-order alias merge
+metric,composition,Insoluble dietary fber,Insoluble dietary fiber (IDF),approved,User-confirmed spelling correction
+metric,composition,Insoluble fiber,Insoluble dietary fiber (IDF),approved,User-confirmed alias merge
+metric,composition,KOH,KOH protein solubility,approved,User-confirmed alias merge
+metric,composition,KOH protein solubility,KOH protein solubility,approved,Canonical soy-quality metric
+metric,composition,Lanthionine,Lanthionine,approved,User-confirmed independent metric
+metric,composition,"Lightness(0 ¼ dark, 100 ¼ light) color",Color score L,approved,User-confirmed color-name mapping
+metric,composition,Lignin,Lignin,approved,User-confirmed independent metric
+metric,composition,Linoleic 18:2,Linoleic acid (18:2),approved,User-confirmed fatty-acid alias
+metric,composition,"Linoleic, 18:2",Linoleic acid (18:2),approved,User-confirmed fatty-acid alias
+metric,composition,Linolenic 18:3,Linolenic acid (18:3),approved,User-confirmed fatty-acid alias
+metric,composition,"Linolenic, 18:3",Linolenic acid (18:3),approved,User-confirmed fatty-acid alias
+metric,composition,Lysine/ crude protein,Lysine/crude protein,approved,User-confirmed independent ratio metric
+metric,composition,NAACP,Non-amino acid crude protein,approved,Source-verified expansion; user-confirmed independent metric
+metric,composition,Nitrogen-free extract,Nitrogen-free extract,approved,User-confirmed independent metric
+metric,composition,Non-phytate P,Non-phytate phosphorus,approved,User-confirmed independent metric
+metric,composition,Non-starch polysaccharide,Total non-starch polysaccharides,approved,User-confirmed generic NSP means total NSP
+metric,composition,Non-starch polysaccharides,Total non-starch polysaccharides,approved,User-confirmed generic NSP means total NSP
+metric,composition,Soluble NSP,Soluble non-starch polysaccharides,approved,User-confirmed alias merge
+metric,composition,NSP soluble,Soluble non-starch polysaccharides,approved,User-confirmed word-order alias merge
+metric,composition,Oleic 18:1,Oleic acid (18:1),approved,User-confirmed fatty-acid alias
+metric,composition,"Oleic, 18:1",Oleic acid (18:1),approved,User-confirmed fatty-acid alias
+metric,composition,P-conglycinin,β-Conglycinin,approved,User-confirmed OCR correction
+metric,composition,b-conglycinin,β-Conglycinin,approved,ASCII beta alias
+metric,composition,B-Conglycinin,β-Conglycinin,approved,ASCII beta alias
+metric,composition,Palmitic 16:0,Palmitic acid (16:0),approved,User-confirmed fatty-acid alias
+metric,composition,"Palmitic, 16:0",Palmitic acid (16:0),approved,User-confirmed fatty-acid alias
+metric,composition,"Palmitioleic, 16:1",Palmitoleic acid (16:1),approved,User-confirmed spelling correction
+metric,composition,paritcle size,Particle size,approved,User-confirmed spelling correction
+metric,composition,Particle size,Particle size,approved,Canonical physical metric
+metric,composition,Particle size geometric mean,Geometric mean particle size,approved,User-confirmed independent metric
+metric,composition,Peroxide value,Peroxide value,approved,User-confirmed independent metric
+metric,composition,PH,pH,approved,User-confirmed capitalization normalization
+metric,composition,pH,pH,approved,Canonical acidity metric
+metric,composition,Phenylethyl,Phenylethyl,approved,Source-verified independent glucosinolate
+metric,composition,Phytase,Phytase activity,approved,User-confirmed activity metric
+metric,composition,Phytate-bound P,Phytate phosphorus,approved,User-confirmed alias merge
+metric,composition,Phytate-P,Phytate phosphorus,approved,User-confirmed alias merge
+metric,composition,Raffinose,Raffinose,approved,User-confirmed independent metric
+metric,composition,Resistant starch,Resistant starch,approved,User-confirmed independent metric
+metric,composition,SCHO,Soluble carbohydrate,approved,User-confirmed soluble-carbohydrate abbreviation
+metric,composition,Soluble dieary fiber,Soluble dietary fiber (SDF),approved,User-confirmed spelling correction
+metric,composition,Soluble fiber,Soluble dietary fiber (SDF),approved,User-confirmed alias merge
+metric,composition,Stachose,Stachyose,approved,User-confirmed spelling correction
+metric,composition,Stachyose,Stachyose,approved,Canonical oligosaccharide name
+metric,composition,Starch gelatinization degree,Degree of gelatinization,approved,User-confirmed alias merge
+metric,composition,Stearic 18:0,Stearic acid (18:0),approved,User-confirmed fatty-acid alias
+metric,composition,"Stearic, 18:0",Stearic acid (18:0),approved,User-confirmed fatty-acid alias
+metric,composition,"Thiobarbituric acid, absorbance (532 nm)",Thiobarbituric acid absorbance (532 nm),approved,User-confirmed independent oxidation metric
+metric,composition,TIs,Trypsin inhibitor,approved,User-confirmed same indicator; raw unit carries the measurement form
+metric,composition,TIUS,Trypsin inhibitor,approved,User-confirmed same indicator; units has no separate metric meaning
+metric,composition,Trypsin inhibitors,Trypsin inhibitor,approved,User-confirmed plural alias
+metric,composition,TMEn,TMEn,approved,User-confirmed independent energy metric
+metric,composition,Total arabinoxylan,Total arabinoxylan,approved,Canonical fiber metric
+metric,composition,Total AX,Total arabinoxylan,approved,User-confirmed abbreviation
+metric,composition,Total carbohydrate,Total carbohydrate,approved,Canonical carbohydrate metric
+metric,composition,Total carbohydrates,Total carbohydrate,approved,User-confirmed plural alias
+metric,composition,Total dietar fiber,Total dietary fiber,approved,User-confirmed spelling correction
+metric,composition,total dietary fiber,Total dietary fiber,approved,User-confirmed punctuation-normalized alias
+metric,composition,Total glucosinolates,Total glucosinolates,approved,Source-verified independent metric
+metric,composition,Glucosinolates,Total glucosinolates,approved,User-confirmed generic glucosinolates means total glucosinolates
+metric,composition,Total NSP,Total non-starch polysaccharides,approved,User-confirmed abbreviation
+metric,composition,Total NSPs,Total non-starch polysaccharides,approved,User-confirmed plural abbreviation
+metric,composition,Total phenols,Total phenols,approved,User-confirmed independent metric
+metric,composition,Total reducing sugars,Total reducing sugars,approved,User-confirmed independent metric
+metric,composition,Urease activity,Urease activity,approved,Canonical soy-quality metric
+metric,composition,Uronic acid,Uronic acid,approved,User-confirmed independent metric
+metric,composition,Verbascose,Verbascose,approved,User-confirmed independent metric
+metric,composition,Water binding capacity,Water binding capacity,approved,User-confirmed independent metric
+metric,composition,"Xylose, I-NSP",Xylose I-NSP,approved,User-confirmed independent fraction
+metric,composition,"Xylose, S-NSP",Xylose S-NSP,approved,User-confirmed independent fraction
+metric,composition,"Xylose, T-NSP",Xylose T-NSP,approved,User-confirmed independent fraction
+metric,composition,"Yellowness (760 ¼ blue, þ60 ¼ yellow) color",Color score b,approved,User-confirmed color-name mapping
+metric,composition,Zearalenone,Zearalenone,approved,User-confirmed independent metric
+metric,composition,2-0H-3-Butenyl,2-OH-3-Butenyl,approved,Source-verified OCR correction
+metric,composition,Epi-2-0H-3-butenyl,Epi-2-OH-3-Butenyl,approved,Source-verified OCR correction
+metric,composition,"4-CH,-Sulfinyl-butyl",4-CH3-Sulfinyl-butyl,approved,Source-verified OCR correction
+metric,composition,2-0H-4-Pentenyl,2-OH-4-Pentenyl,approved,Source-verified OCR correction
+metric,composition,"5-CH,-Sulfinyl-pentyl",5-CH3-Sulfinyl-pentyl,approved,Source-verified OCR correction
+metric,composition,3-Butenyl,3-Butenyl,approved,Source-verified glucosinolate
+metric,composition,"4-OH-3-CH,-Indolyl",4-OH-3-CH3-Indolyl,approved,Source-verified OCR correction
+metric,composition,4-Pentenyl,4-Pentenyl,approved,Source-verified glucosinolate
+metric,composition,"3-CH,-Indolyl",3-CH3-Indolyl,approved,Source-verified OCR correction
+metric,composition,4-Methoxy-3-CHg-indolyl,4-Methoxy-3-CH3-Indolyl,approved,Source-verified OCR correction
+metric,composition,1-Methoxy-3-CH-indolyl,1-Methoxy-3-CH3-Indolyl,approved,Source-verified OCR correction
+metric,composition,Acetic acid,Acetic acid,approved,User-confirmed independent fermentation metabolite
+metric,composition,Butyric acid,Butyric acid,approved,User-confirmed independent fermentation metabolite
+metric,composition,Propionic acid,Propionic acid,approved,User-confirmed independent fermentation metabolite
+metric,composition,Lactobacillus,Lactobacillus viable count,approved,Source-verified probiotic microbial count
+metric,composition,Bacillus subtilis,Bacillus subtilis viable count,approved,Source-verified probiotic microbial count
+metric,composition,Bulk weight,Bulk density,approved,User-confirmed synonym
+metric,composition,Carbohydrates,Total carbohydrate,approved,User-confirmed carbohydrate alias
+metric,composition,Color score L,Color score L,approved,User-confirmed dimensionless color metric
+metric,composition,Color score a,Color score a,approved,User-confirmed dimensionless color metric
+metric,composition,Color score b,Color score b,approved,User-confirmed dimensionless color metric
+metric,composition,L,Color score L,approved,User-confirmed color alias
+metric,composition,a,Color score a,approved,User-confirmed color alias
+metric,composition,b,Color score b,approved,User-confirmed color alias
+metric,composition,Mean,Mean,approved,User-confirmed source mean row
+ingredient,,co-fermented wheat–corn DDGS,co-fermented wheat–corn DDGS,approved,User-confirmed independent ingredient
+ingredient,,corn germ meal-liquid corn extractives,corn germ meal-liquid corn extractives,approved,User-confirmed independent ingredient
+ingredient,,corn-DDGS,Corn DDGS,approved,Hyphenated spelling mapped to approved ingredient
+ingredient,,full-fat rice bran,full fat rice bran,approved,Hyphen spelling mapped to approved ingredient
+ingredient,,Soybean  hulls,soybean hulls,approved,Repeated-space spelling mapped to approved ingredient
+metric,composition,Cellulose,Cellulose,approved,User-confirmed independent component
+metric,composition,Insoluble hemicelluloses,Insoluble hemicelluloses,approved,User-confirmed independent component
+metric,composition,Insoluble non-starch polysaccharides,Insoluble non-starch polysaccharides,approved,Canonical fiber metric
+metric,composition,Non-cellulosic non-starch polysaccharides,Non-cellulosic non-starch polysaccharides,approved,User-confirmed independent component
+metric,composition,Acid-hydrolyzed ether extract,AEE,approved,User-confirmed full-name alias
+metric,composition,1000 kernel weight,1000-kernel weight,approved,User-confirmed alias merge
+metric,composition,1000 kernels weight,1000-kernel weight,approved,User-confirmed plural alias merge
+metric,composition,Amylase: -treated neutral detergent fiber,Amylase-treated neutral detergent fiber,approved,User-confirmed independent component; not merged with aNDF
+metric,composition,Amylopectin,Amylopectin,approved,User-confirmed independent component
+metric,composition,Amylose,Amylose,approved,User-confirmed independent component
+metric,composition,aNDF,aNDF,approved,User-confirmed independent component
+metric,composition,"Arabinose, I-NSP",Arabinose I-NSP,approved,User-confirmed independent fraction
+metric,composition,"Arabinose, S-NSP",Arabinose S-NSP,approved,User-confirmed independent fraction
+metric,composition,"Arabinose, T-NSP",Arabinose T-NSP,approved,User-confirmed independent fraction
+metric,composition,Avail Phosphorus,Available phosphorus,approved,User-confirmed independent component
+metric,composition,bulk density,Bulk density,approved,Capitalization-normalized physical metric
+metric,composition,Glycinin,Glycinin,approved,User-confirmed independent component
+metric,composition,Insoluble arabinose,Insoluble arabinose,approved,User-confirmed independent component
+metric,composition,Insoluble fructose,Insoluble fructose,approved,User-confirmed independent component
+metric,composition,Insoluble galactose,Insoluble galactose,approved,User-confirmed independent component
+metric,composition,Insoluble glucose,Insoluble glucose,approved,User-confirmed independent component
+metric,composition,Insoluble mannose,Insoluble mannose,approved,User-confirmed independent component
+metric,composition,Insoluble rhamnose,Insoluble rhamnose,approved,User-confirmed independent component
+metric,composition,Insoluble ribose,Insoluble ribose,approved,User-confirmed independent component
+metric,composition,Insoluble xylose,Insoluble xylose,approved,User-confirmed independent component
+metric,composition,"Mannose, I-NSP",Mannose I-NSP,approved,User-confirmed independent fraction
+metric,composition,"Mannose, S-NSP",Mannose S-NSP,approved,User-confirmed independent fraction
+metric,composition,"Mannose, T-NSP",Mannose T-NSP,approved,User-confirmed independent fraction
+metric,composition,"Myristic, 14:0",Myristic acid (14:0),approved,User-confirmed fatty-acid standardization
+metric,composition,"Redness(760 ¼ green, þ60 ¼ red) color",Color score a,approved,User-confirmed color-name mapping
+metric,composition,Soluble arabinose,Soluble arabinose,approved,User-confirmed independent component
+metric,composition,Soluble fructose,Soluble fructose,approved,User-confirmed independent component
+metric,composition,Soluble galactose,Soluble galactose,approved,User-confirmed independent component
+metric,composition,Soluble glucose,Soluble glucose,approved,User-confirmed independent component
+metric,composition,Soluble mannose,Soluble mannose,approved,User-confirmed independent component
+metric,composition,Soluble non-starch polysaccharides,Soluble non-starch polysaccharides,approved,Canonical fiber metric
+metric,composition,Soluble rhamnose,Soluble rhamnose,approved,User-confirmed independent component
+metric,composition,Soluble ribose,Soluble ribose,approved,User-confirmed independent component
+metric,composition,Soluble xylose,Soluble xylose,approved,User-confirmed independent component
+metric,composition,Sucrose,Sucrose,approved,User-confirmed independent component
+metric,composition,total dietary fiber;,Total dietary fiber,approved,User-confirmed punctuation correction
+metric,composition,AEE,AEE,approved,Canonical acid-hydrolyzed ether extract abbreviation
+metric,composition,ash,Ash,approved,Lowercase comparison and capitalization normalization
+metric,composition,Carbohydrate,Total carbohydrate,approved,User-confirmed singular alias
+metric,composition,IDF,Insoluble dietary fiber (IDF),approved,User-confirmed standard abbreviation
+metric,composition,Mineral Matter,Mineral Matter,approved,User-confirmed independent component
+metric,composition,NFE,Nitrogen-free extract,approved,User-confirmed standard abbreviation
+metric,composition,Nitrogen free extract,Nitrogen-free extract,approved,User-confirmed punctuation alias
+metric,composition,Nonphytate P,Non-phytate phosphorus,approved,User-confirmed spelling alias
+metric,composition,NSP total,Total non-starch polysaccharides,approved,User-confirmed word-order alias
+metric,composition,Phytic acid phosphorus,Phytate phosphorus,approved,User-confirmed synonym
+metric,composition,SDF,Soluble dietary fiber (SDF),approved,User-confirmed standard abbreviation
+metric,composition,TDF,Total dietary fiber,approved,User-confirmed standard abbreviation
+metric,composition,Tiu,Trypsin inhibitor,approved,User-confirmed spelling alias
+metric,composition,Trypsin inhabitor,Trypsin inhibitor,approved,User-confirmed spelling correction
+metric,composition,Trypsin inhabitor unit/mg,Trypsin inhibitor,approved,Unit phrase does not define a separate metric
+metric,composition,trypsin inhibitor (tiu/mg),Trypsin inhibitor,approved,Embedded unit retained separately
+metric,composition,trypsin inhibitor units,Trypsin inhibitor,approved,Units phrase has no separate metric meaning
+metric,composition,"trypsin inhibitor units, mg/kg",Trypsin inhibitor,approved,Embedded unit retained separately
+metric,composition,"trypsin inhibitor,tiu/mg",Trypsin inhibitor,approved,Embedded unit retained separately
+metric,composition,"trypsin inhibitors,unit/mg",Trypsin inhibitor,approved,Embedded unit retained separately
+metric,composition,Trypsin inhibitor activity,Trypsin inhibitor,approved,User-confirmed same indicator; unit identifies activity expression
+metric,composition,Trypsin inhibitor content,Trypsin inhibitor,approved,User-confirmed same indicator; unit identifies concentration expression
+metric,composition,胰蛋白酶抑制因子,Trypsin inhibitor,approved,Chinese alias

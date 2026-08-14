@@ -1,0 +1,27 @@
+[project]
+name = "historical-feed-database"
+version = "0.5.0"
+description = "Import, validate, query, and curate an extensible feed ingredient database."
+requires-python = ">=3.10"
+dependencies = ["openpyxl>=3.1", "PyQt6>=6.6,<6.12"]
+
+[project.optional-dependencies]
+modeling = [
+    "joblib>=1.4",
+    "matplotlib>=3.9",
+    "pandas>=2.2",
+    "scikit-learn==1.5.1",
+]
+
+[project.scripts]
+feeddb = "feeddb.cli:main"
+feeddb-gui = "feeddb.gui:main"
+
+[tool.setuptools]
+packages = ["feeddb"]
+
+[tool.setuptools.package-data]
+feeddb = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

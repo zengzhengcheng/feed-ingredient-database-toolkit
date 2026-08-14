@@ -1,0 +1,35 @@
+profile_type,profile_value,canonical_unit,priority,status,note
+context,energy,MJ/kg,10,approved,Low two-digit feed energy values
+context,energy,kJ/kg,20,approved,Feed energy reported in kilojoules
+context,energy,kcal/kg,30,approved,Feed energy reported in kilocalories
+context,energy,Mcal/kg,40,approved,Feed energy reported in megacalories
+context,composition,%,10,approved,Percent composition
+context,composition,g/kg,20,approved,Mass per kilogram
+context,composition,mg/kg,30,approved,Minor component concentration
+context,composition,µg/kg,40,approved,Trace concentration
+group,常用组分,%,10,approved,Proximate composition
+group,常用组分,g/kg,20,approved,Proximate composition
+group,常用组分,mg/kg,30,approved,Minor component concentration
+group,微量元素,mg/kg,10,approved,Trace element concentration
+group,微量元素,µg/kg,20,approved,Trace element concentration
+group,微量元素,g/kg,30,approved,Major mineral concentration
+group,微量元素,ppm,40,approved,Reported trace concentration
+group,维生素,IU/kg,10,approved,Vitamin activity
+group,维生素,mg/kg,20,approved,Vitamin concentration
+group,维生素,µg/kg,30,approved,Trace vitamin concentration
+group,抗营养因子,%,10,approved,Mass fraction
+group,抗营养因子,mg/kg,20,approved,Concentration
+group,抗营养因子,µmol/g,30,approved,Molar concentration
+group,抗营养因子,mmol/kg,40,approved,Molar concentration
+group,抗营养因子,TIU/mg,50,approved,Trypsin inhibitor activity
+group,抗营养因子,HAU/mg,60,approved,Lectin activity
+group,抗营养因子,unit/mg,70,approved,Reported activity
+group,霉菌毒素,µg/kg,10,approved,Mycotoxin trace concentration
+group,霉菌毒素,mg/kg,20,approved,Mycotoxin concentration
+group,霉菌毒素,ppb,30,approved,Reported trace concentration
+group,霉菌毒素,ppm,40,approved,Reported concentration
+global,all,g/cm3,100,approved,Density
+global,all,g/L,110,approved,Bulk density or concentration
+global,all,g/g,120,approved,Mass ratio
+global,all,CFU/g,130,approved,Microbial count
+global,all,FTU/kg,140,approved,Phytase activity

@@ -1,0 +1,121 @@
+relative_path,size_bytes,purpose,version_date
+.gitignore,350,"repository metadata, installation, launch, or validation file",2026-08-14
+CODE_LICENSE_REVIEW_REQUIRED.txt,377,"repository metadata, installation, launch, or validation file",2026-08-14
+config/duplicate_resolution.csv,89,"curation, duplicate-resolution, or rights-review configuration",2026-08-14
+config/legacy_dictionary_conflicts.csv,1587,"curation, duplicate-resolution, or rights-review configuration",2026-08-14
+config/rights_review_template.csv,49,"curation, duplicate-resolution, or rights-review configuration",2026-08-14
+config/source_dictionary_conflicts.csv,167,"curation, duplicate-resolution, or rights-review configuration",2026-08-14
+docs/data_model.md,2801,"public user, data-model, query, or integration documentation",2026-08-14
+docs/database_query_and_export_guide.md,6286,"public user, data-model, query, or integration documentation",2026-08-14
+docs/dictionary_guide.md,2409,"public user, data-model, query, or integration documentation",2026-08-14
+docs/dictionary_inventory.md,1554,"public user, data-model, query, or integration documentation",2026-08-14
+docs/excel_entry_guide.md,4478,"public user, data-model, query, or integration documentation",2026-08-14
+docs/release_guide.md,4304,"public user, data-model, query, or integration documentation",2026-08-14
+docs/SYSTEM_FUNCTION_MAP_20260807.md,12004,"public user, data-model, query, or integration documentation",2026-08-14
+docs/USER_GUIDE.md,4690,"public user, data-model, query, or integration documentation",2026-08-14
+examples/metabolizable_energy_all_ingredients/cohort/cohort_summary.json,1501,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/cohort/excluded_ambiguous_features.csv,145,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/cohort/ingredient_coverage.csv,780,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/cohort/pig_me_all_ingredients_primary.csv,79569,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/cohort/pig_me_complete_case_sensitivity.csv,66664,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/cohort/resolved_feature_conflicts.csv,4276,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/extract_pig_me_cohort.sql,2361,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/model_card.md,2521,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/models/model_metadata.json,537381,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/models/ordinary_linear_regression.joblib,2062,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/models/partial_least_squares.joblib,64766,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/models/random_forest.joblib,8727687,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/models/ridge_regression.joblib,1966,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/predict.py,3359,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/README.md,3425,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/grouped_cv_metrics.json,20006251,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/missingness_summary.csv,3225,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/model_comparison.png,163097,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/observed_vs_predicted.png,541912,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/primary_model_comparison.csv,925,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/primary_out_of_fold_predictions.csv,269638,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/primary_per_study_metrics.csv,11236,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/sensitivity_model_comparison.csv,924,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/sensitivity_out_of_fold_predictions.csv,224383,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/results/sensitivity_per_study_metrics.csv,9229,read-only query or reproducible database-reuse example,2026-08-14
+examples/metabolizable_energy_all_ingredients/run_models.py,39057,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/cohort/cohort_summary.json,659,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/cohort/pig_ne_modeling_cohort.csv,9606,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/extract_pig_ne_cohort.sql,2029,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/model_card.md,2187,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/models/model_metadata.json,37978,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/models/ordinary_linear_regression.joblib,1246,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/models/partial_least_squares.joblib,9150,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/models/random_forest.joblib,1729495,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/models/ridge_regression.joblib,1214,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/predict.py,3416,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/README.md,3902,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/results/grouped_cv_metrics.json,228211,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/results/model_comparison.csv,923,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/results/model_comparison.png,91442,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/results/observed_vs_predicted.png,352487,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/results/out_of_fold_predictions.csv,29834,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/results/per_study_metrics.csv,3654,read-only query or reproducible database-reuse example,2026-08-14
+examples/net_energy_prediction/run_models.py,25504,read-only query or reproducible database-reuse example,2026-08-14
+examples/python_direct_access.py,1597,read-only query or reproducible database-reuse example,2026-08-14
+examples/query_rules/01_原料成分查询.sql,592,read-only query or reproducible database-reuse example,2026-08-14
+examples/query_rules/02_动物营养价值查询.sql,864,read-only query or reproducible database-reuse example,2026-08-14
+examples/query_rules/03_候选词汇总.sql,242,read-only query or reproducible database-reuse example,2026-08-14
+feeddb/__init__.py,72,application source code and packaged seed data,2026-08-14
+feeddb/bilingual_template.py,10287,application source code and packaged seed data,2026-08-14
+feeddb/cli.py,14277,application source code and packaged seed data,2026-08-14
+feeddb/contribution_api.py,11848,application source code and packaged seed data,2026-08-14
+feeddb/contribution_batch.py,29005,application source code and packaged seed data,2026-08-14
+feeddb/contribution_file.py,15402,application source code and packaged seed data,2026-08-14
+feeddb/contribution_widget.py,49647,application source code and packaged seed data,2026-08-14
+feeddb/data/legacy_name_dictionary.csv,204348,application source code and packaged seed data,2026-08-14
+feeddb/data/legacy_source_dictionary.csv,36018,application source code and packaged seed data,2026-08-14
+feeddb/data/metric_unit_rules.csv,5951,application source code and packaged seed data,2026-08-14
+feeddb/data/name_resolution_overrides.csv,23505,application source code and packaged seed data,2026-08-14
+feeddb/data/unit_aliases.csv,3300,application source code and packaged seed data,2026-08-14
+feeddb/data/unit_option_profiles.csv,2079,application source code and packaged seed data,2026-08-14
+feeddb/database.py,20966,application source code and packaged seed data,2026-08-14
+feeddb/database_admin.py,9268,application source code and packaged seed data,2026-08-14
+feeddb/dictionary_report.py,1362,application source code and packaged seed data,2026-08-14
+feeddb/excel_io.py,47086,application source code and packaged seed data,2026-08-14
+feeddb/gui.py,19613,application source code and packaged seed data,2026-08-14
+feeddb/i18n.py,13249,application source code and packaged seed data,2026-08-14
+feeddb/legacy_parser.py,7645,application source code and packaged seed data,2026-08-14
+feeddb/metric_catalog_widget.py,10241,application source code and packaged seed data,2026-08-14
+feeddb/normalization.py,664,application source code and packaged seed data,2026-08-14
+feeddb/query.py,4130,application source code and packaged seed data,2026-08-14
+feeddb/release_audit.py,11713,application source code and packaged seed data,2026-08-14
+feeddb/release_builder.py,39111,application source code and packaged seed data,2026-08-14
+feeddb/release_check.py,14324,application source code and packaged seed data,2026-08-14
+feeddb/release_stats.py,10442,application source code and packaged seed data,2026-08-14
+feeddb/schema.py,10906,application source code and packaged seed data,2026-08-14
+feeddb/term_review.py,11472,application source code and packaged seed data,2026-08-14
+feeddb/term_review_widget.py,10227,application source code and packaged seed data,2026-08-14
+feeddb/unit_resolution.py,10944,application source code and packaged seed data,2026-08-14
+feeddb/user_query.py,7032,application source code and packaged seed data,2026-08-14
+integrations/AI_AGENT_GUIDE.md,2866,"public user, data-model, query, or integration documentation",2026-08-14
+integrations/ai_contribution_example.json,1223,"public user, data-model, query, or integration documentation",2026-08-14
+integrations/contribution.schema.json,3824,"public user, data-model, query, or integration documentation",2026-08-14
+pyproject.toml,593,"repository metadata, installation, launch, or validation file",2026-08-14
+README.md,10918,"repository metadata, installation, launch, or validation file",2026-08-14
+README_CN.md,9225,"repository metadata, installation, launch, or validation file",2026-08-14
+RELEASE_BOUNDARY.md,651,"repository metadata, installation, launch, or validation file",2026-08-14
+RELEASE_VALIDATION.json,2226,"repository metadata, installation, launch, or validation file",2026-08-14
+REPOSITORY_METADATA.md,752,"repository metadata, installation, launch, or validation file",2026-08-14
+run_gui.bat,1055,"repository metadata, installation, launch, or validation file",2026-08-14
+source_auditor/auditor.py,34292,standalone read-only source-audit utility,2026-08-14
+source_auditor/default_rules.json,1406,standalone read-only source-audit utility,2026-08-14
+source_auditor/DESIGN.md,3163,standalone read-only source-audit utility,2026-08-14
+source_auditor/README.md,3535,standalone read-only source-audit utility,2026-08-14
+source_auditor/run_audit.bat,1045,standalone read-only source-audit utility,2026-08-14
+source_auditor/test_auditor.py,5168,standalone read-only source-audit utility,2026-08-14
+templates/feed_ingredient_contribution_template.xlsx,40648,blank bilingual contribution template,2026-08-14
+tests/test_bilingual_release_template.py,6122,automated software and GUI tests,2026-08-14
+tests/test_metabolizable_energy_all_ingredients.py,9520,automated software and GUI tests,2026-08-14
+tests/test_net_energy_prediction.py,7692,automated software and GUI tests,2026-08-14
+tests/test_pipeline.py,68343,automated software and GUI tests,2026-08-14
+tools/assemble_upload_candidates.py,14639,release assembly and validation utility,2026-08-14
+tools/check_release_for_author.py,3224,release assembly and validation utility,2026-08-14
+tools/extract_legacy_dictionary.py,8078,release assembly and validation utility,2026-08-14
+tools/extract_source_dictionary.py,8135,release assembly and validation utility,2026-08-14
+tools/run_adversarial_intake_tests.py,13135,release assembly and validation utility,2026-08-14

@@ -1,0 +1,33 @@
+{
+  "accepted_parameter_sheets": ["论文参数", "study", "studies"],
+  "accepted_ingredient_sheets": ["成分及营养价值数据", "成分及营养价值", "ingredients", "ingredient data"],
+  "raw_workbook_name_markers": ["原始"],
+  "title_fields": ["title", "题目", "论文题目"],
+  "doi_fields": ["doi"],
+  "section_labels": {
+    "基础数据": "基础数据",
+    "饲料组成": "饲料组成",
+    "特殊成分": "特殊成分",
+    "营养价值": "营养价值",
+    "能量": "能量",
+    "营养物质消化率": "营养物质消化率",
+    "非表观营养价值": "非表观营养价值",
+    "非常规营养价值": "非表观营养价值"
+  },
+  "digestibility_contexts": {
+    "aid": "AID",
+    "sid": "SID",
+    "attd": "ATTD",
+    "sttd": "STTD"
+  },
+  "unit_tokens": [
+    "%", "g/kg", "mg/kg", "ug/kg", "µg/kg", "μg/kg", "ppm", "ppb",
+    "MJ/kg", "kJ/kg", "kcal/kg", "IU/kg", "CFU/g", "FTU/kg", "TIU/mg", "µm", "μm"
+  ],
+  "basis_tokens": [
+    "DM", "dry matter", "dry-matter", "干物质基础", "干基",
+    "as-fed", "as fed", "as-is", "as is", "饲喂基础", "原样基础"
+  ],
+  "energy_metric_tokens": ["de", "me", "ne", "ame", "amen", "ge", "digestible energy", "metabolizable energy", "net energy", "gross energy", "消化能", "代谢能", "净能", "总能"],
+  "numeric_text_qualifiers": ["<", ">", "≤", "≥", "±", "+/-", "nd", "n.d.", "trace"]
+}

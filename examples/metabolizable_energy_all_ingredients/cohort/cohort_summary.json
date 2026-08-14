@@ -1,0 +1,73 @@
+{
+  "averaging_performed": false,
+  "complete_case_sensitivity": {
+    "ingredient_samples": 170,
+    "ingredient_types": 18,
+    "observations": 172,
+    "studies": 18
+  },
+  "database_access": "SQLite URI mode=ro with PRAGMA query_only=ON",
+  "feature_order": [
+    "CP",
+    "EE",
+    "Ash",
+    "NDF",
+    "ADF",
+    "GE"
+  ],
+  "feature_units": {
+    "ADF": "% dry matter",
+    "Ash": "% dry matter",
+    "CP": "% dry matter",
+    "EE": "% dry matter",
+    "GE": "MJ/kg dry matter",
+    "NDF": "% dry matter"
+  },
+  "overall_gate": {
+    "ingredient_samples": 202,
+    "ingredient_types": 22,
+    "observations": 204,
+    "studies": 22
+  },
+  "primary": {
+    "ingredient_samples": 202,
+    "ingredient_types": 22,
+    "observations": 204,
+    "studies": 22
+  },
+  "primary_study_observation_counts": {
+    "14": 5,
+    "15": 4,
+    "2": 5,
+    "20": 20,
+    "23": 6,
+    "24": 30,
+    "34": 10,
+    "42": 12,
+    "43": 5,
+    "46": 4,
+    "53": 2,
+    "54": 15,
+    "57": 3,
+    "58": 2,
+    "60": 18,
+    "63": 15,
+    "77": 4,
+    "78": 9,
+    "90": 4,
+    "92": 20,
+    "93": 5,
+    "99": 6
+  },
+  "resolution_rule": "exact target workbook, sheet, and source column match",
+  "resolved_feature_conflicts": 9,
+  "study_78_complete_case_observations": 0,
+  "study_78_missing_features": [
+    "EE",
+    "NDF",
+    "ADF"
+  ],
+  "target": "pig ME",
+  "target_unit": "MJ/kg dry matter",
+  "unresolved_feature_conflicts": 0
+}

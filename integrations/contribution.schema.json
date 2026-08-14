@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/feeddb/contribution.schema.json",
+  "title": "Feed ingredient contribution exchange",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format_version", "metadata", "composition_metrics", "ingredients", "animals", "nutrition_metrics", "nutrition_rows"],
+  "properties": {
+    "format_version": {"const": "1.0"},
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title"],
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "doi": {"type": ["string", "null"]},
+        "journal": {"type": ["string", "null"]},
+        "publication_year": {"type": ["string", "number", "null"]},
+        "species": {"type": ["string", "null"]},
+        "country": {"type": ["string", "null"]}
+      }
+    },
+    "composition_metrics": {"type": "array", "items": {"$ref": "#/$defs/compositionMetric"}},
+    "ingredients": {"type": "array", "items": {"$ref": "#/$defs/ingredient"}},
+    "animals": {"type": "array", "items": {"$ref": "#/$defs/animal"}},
+    "nutrition_metrics": {"type": "array", "items": {"$ref": "#/$defs/nutritionMetric"}},
+    "nutrition_rows": {"type": "array", "items": {"$ref": "#/$defs/nutritionRow"}}
+  },
+  "$defs": {
+    "value": {"type": ["string", "number", "null"]},
+    "compositionMetric": {
+      "type": "object", "additionalProperties": false, "required": ["metric"],
+      "properties": {
+        "metric": {"type": "string", "minLength": 1},
+        "unit": {"type": ["string", "null"], "default": "%"},
+        "basis": {"type": ["string", "null"], "default": "dry matter"}
+      }
+    },
+    "nutritionMetric": {
+      "type": "object", "additionalProperties": false, "required": ["metric", "context"],
+      "properties": {
+        "metric": {"type": "string", "minLength": 1},
+        "context": {"enum": ["energy", "AID", "SID", "ATTD", "STTD", "CATTD"]},
+        "unit": {"type": ["string", "null"]},
+        "basis": {"type": ["string", "null"]}
+      }
+    },
+    "ingredient": {
+      "type": "object", "additionalProperties": false, "required": ["ingredient_key", "raw_name", "values"],
+      "properties": {
+        "ingredient_key": {"type": "string", "minLength": 1},
+        "raw_name": {"type": "string", "minLength": 1},
+        "source_ingredient_no": {"type": ["string", "number", "null"]},
+        "feed_type": {"type": ["string", "null"]},
+        "processing_technic": {"type": ["string", "null"]},
+        "place_of_origin": {"type": ["string", "null"]},
+        "reported_basis": {"type": ["string", "null"]},
+        "dry_matter_value": {"$ref": "#/$defs/value"},
+        "values": {"type": "array", "items": {"$ref": "#/$defs/value"}}
+      }
+    },
+    "animal": {
+      "type": "object", "additionalProperties": false, "required": ["animal_group_key"],
+      "properties": {
+        "animal_group_key": {"type": "string", "minLength": 1},
+        "trial_no": {"type": ["string", "number", "null"]},
+        "species": {"type": ["string", "null"]},
+        "breed": {"type": ["string", "null"]},
+        "sex": {"type": ["string", "null"]},
+        "animal_type": {"type": ["string", "null"]},
+        "period": {"type": ["string", "null"]},
+        "age_days": {"$ref": "#/$defs/value"},
+        "age_weeks": {"$ref": "#/$defs/value"},
+        "body_weight_kg": {"$ref": "#/$defs/value"}
+      }
+    },
+    "nutritionRow": {
+      "type": "object", "additionalProperties": false,
+      "required": ["ingredient_key", "animal_group_key", "values"],
+      "properties": {
+        "ingredient_key": {"type": "string", "minLength": 1},
+        "animal_group_key": {"type": "string", "minLength": 1},
+        "values": {"type": "array", "items": {"$ref": "#/$defs/value"}}
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+﻿category,context,raw_term,sql_canonical_term,source_canonical_term,decision
+metric,energy,ame,AME,ME,Keep SQL mapping; record source-code disagreement for review

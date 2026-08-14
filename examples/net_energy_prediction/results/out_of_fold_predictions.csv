@@ -1,0 +1,241 @@
+model,model_display_name,outer_fold,held_out_study_id,study_id,ingredient_sample_id,nutrition_observation_id,observed_NE_MJ_per_kg_DM,predicted_NE_MJ_per_kg_DM,residual_observed_minus_predicted,selected_params
+ordinary_linear_regression,Ordinary linear regression,1,2,2,11,13,10.5,13.378253412950155,-2.878253412950155,{}
+ordinary_linear_regression,Ordinary linear regression,1,2,2,12,22,11.0,11.611067457737693,-0.6110674577376933,{}
+ordinary_linear_regression,Ordinary linear regression,1,2,2,13,31,11.0,12.537344316053147,-1.5373443160531473,{}
+ordinary_linear_regression,Ordinary linear regression,1,2,2,14,40,9.5,10.705730873640679,-1.2057308736406789,{}
+ordinary_linear_regression,Ordinary linear regression,1,2,2,15,49,9.3,9.827264165764268,-0.5272641657642669,{}
+ordinary_linear_regression,Ordinary linear regression,2,14,14,64,211,12.33,11.578481046835176,0.7515189531648243,{}
+ordinary_linear_regression,Ordinary linear regression,2,14,14,65,218,8.75,8.597131341687927,0.15286865831207308,{}
+ordinary_linear_regression,Ordinary linear regression,2,14,14,66,225,7.51,7.407649470958767,0.10235052904123254,{}
+ordinary_linear_regression,Ordinary linear regression,2,14,14,67,232,10.75,9.528127715333579,1.2218722846664214,{}
+ordinary_linear_regression,Ordinary linear regression,2,14,14,68,239,6.49,6.657614578023367,-0.16761457802336643,{}
+ordinary_linear_regression,Ordinary linear regression,3,15,15,71,246,12.357072,11.866500656001927,0.4905713439980737,{}
+ordinary_linear_regression,Ordinary linear regression,3,15,15,72,253,4.6046,6.1333459854013155,-1.528745985401316,{}
+ordinary_linear_regression,Ordinary linear regression,3,15,15,73,260,7.312942,8.867655726454785,-1.5547137264547857,{}
+ordinary_linear_regression,Ordinary linear regression,3,15,15,74,267,8.702694,8.111217419267716,0.5914765807322837,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,119,894,12.62,12.579214004862193,0.04078599513780645,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,120,897,12.73,12.579214004862193,0.15078599513780766,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,121,900,12.85,12.550837453469974,0.2991625465300256,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,122,903,12.99,12.550837453469974,0.4391625465300262,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,123,906,12.74,12.602917743584543,0.13708225641545724,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,124,909,12.82,12.602917743584543,0.2170822564154573,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,125,912,13.03,12.602917743584543,0.4270822564154564,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,126,915,12.53,12.602917743584543,-0.07291774358454362,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,127,918,12.16,12.707154091610903,-0.5471540916109028,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,128,921,12.64,12.707154091610903,-0.06715409161090236,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,129,924,12.68,12.707154091610903,-0.027154091610903208,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,130,927,12.63,12.707154091610903,-0.07715409161090214,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,131,930,13.09,12.50833946590743,0.5816605340925705,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,132,933,12.88,12.50833946590743,0.3716605340925714,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,133,936,12.72,12.50833946590743,0.21166053409257124,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,134,939,12.85,12.50833946590743,0.34166053409257024,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,135,942,12.62,12.482537692182675,0.1374623078173247,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,136,945,12.66,12.482537692182675,0.17746230781732564,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,137,948,12.35,12.482537692182675,-0.13253769218267486,{}
+ordinary_linear_regression,Ordinary linear regression,4,20,20,138,951,12.49,12.482537692182675,0.0074623078173257085,{}
+ordinary_linear_regression,Ordinary linear regression,5,46,46,308,2745,13.21,12.978200923352595,0.2317990766474054,{}
+ordinary_linear_regression,Ordinary linear regression,5,46,46,308,2748,13.69,12.978200923352595,0.711799076647404,{}
+ordinary_linear_regression,Ordinary linear regression,5,46,46,309,2751,10.4,10.75031573708606,-0.3503157370860599,{}
+ordinary_linear_regression,Ordinary linear regression,5,46,46,309,2754,10.62,10.75031573708606,-0.13031573708606103,{}
+ordinary_linear_regression,Ordinary linear regression,6,77,77,504,5499,12.46,12.429763679698517,0.030236320301483488,{}
+ordinary_linear_regression,Ordinary linear regression,6,77,77,505,5504,11.34,12.697682613795607,-1.3576826137956068,{}
+ordinary_linear_regression,Ordinary linear regression,6,77,77,506,5509,11.71,9.730302700153043,1.9796972998469577,{}
+ordinary_linear_regression,Ordinary linear regression,6,77,77,507,5514,8.83,8.273310743564455,0.5566892564355452,{}
+ordinary_linear_regression,Ordinary linear regression,7,99,99,609,6955,6.79,6.029931414170021,0.7600685858299787,{}
+ordinary_linear_regression,Ordinary linear regression,7,99,99,610,6963,7.94,7.776634817719893,0.1633651822801072,{}
+ordinary_linear_regression,Ordinary linear regression,7,99,99,611,6971,8.15,8.918717377743215,-0.768717377743215,{}
+ordinary_linear_regression,Ordinary linear regression,7,99,99,612,6979,6.87,7.581625372559346,-0.7116253725593458,{}
+ordinary_linear_regression,Ordinary linear regression,7,99,99,613,6987,7.33,7.138103327605785,0.19189667239421482,{}
+ordinary_linear_regression,Ordinary linear regression,7,99,99,614,6995,7.93,8.038428104441525,-0.10842810444152562,{}
+partial_least_squares,Partial least squares,1,2,2,11,13,10.5,13.268476545648866,-2.7684765456488662,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,1,2,2,12,22,11.0,11.495433039257447,-0.4954330392574473,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,1,2,2,13,31,11.0,12.406227566769221,-1.4062275667692212,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,1,2,2,14,40,9.5,10.644220135659674,-1.1442201356596744,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,1,2,2,15,49,9.3,9.747250702508689,-0.44725070250868804,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,2,14,14,64,211,12.33,11.561701390938024,0.7682986090619757,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,2,14,14,65,218,8.75,8.661205784028263,0.08879421597173653,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,2,14,14,66,225,7.51,7.442152688219955,0.06784731178004488,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,2,14,14,67,232,10.75,9.540688419021695,1.209311580978305,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,2,14,14,68,239,6.49,6.655122823020953,-0.16512282302095294,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,3,15,15,71,246,12.357072,11.974423524124358,0.38264847587564255,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,3,15,15,72,253,4.6046,6.273813703590269,-1.6692137035902697,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,3,15,15,73,260,7.312942,8.899146995624887,-1.5862049956248878,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,3,15,15,74,267,8.702694,8.141571335492754,0.5611226645072449,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,119,894,12.62,12.564582727309235,0.05541727269076446,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,120,897,12.73,12.564582727309235,0.16541727269076567,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,121,900,12.85,12.542450749579007,0.30754925042099224,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,122,903,12.99,12.542450749579007,0.4475492504209928,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,123,906,12.74,12.59203317891447,0.1479668210855305,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,124,909,12.82,12.59203317891447,0.22796682108553057,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,125,912,13.03,12.59203317891447,0.43796682108552965,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,126,915,12.53,12.59203317891447,-0.062033178914470355,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,127,918,12.16,12.685003374975533,-0.5250033749755332,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,128,921,12.64,12.685003374975533,-0.04500337497553275,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,129,924,12.68,12.685003374975533,-0.005003374975533603,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,130,927,12.63,12.685003374975533,-0.05500337497553254,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,131,930,13.09,12.49485673737281,0.5951432626271895,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,132,933,12.88,12.49485673737281,0.38514326262719045,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,133,936,12.72,12.49485673737281,0.2251432626271903,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,134,939,12.85,12.49485673737281,0.3551432626271893,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,135,942,12.62,12.47162056431328,0.14837943568671896,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,136,945,12.66,12.47162056431328,0.1883794356867199,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,137,948,12.35,12.47162056431328,-0.12162056431328061,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,4,20,20,138,951,12.49,12.47162056431328,0.018379435686719958,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,5,46,46,308,2745,13.21,12.990137945651213,0.2198620543487877,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,5,46,46,308,2748,13.69,12.990137945651213,0.6998620543487863,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,5,46,46,309,2751,10.4,10.7732525133991,-0.37325251339910004,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,5,46,46,309,2754,10.62,10.7732525133991,-0.15325251339910118,"{""n_components"": 4}"
+partial_least_squares,Partial least squares,6,77,77,504,5499,12.46,12.519122099592185,-0.05912209959218373,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,6,77,77,505,5504,11.34,12.23639273933082,-0.8963927393308193,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,6,77,77,506,5509,11.71,9.693997692452117,2.0160023075478843,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,6,77,77,507,5514,8.83,8.313363586397845,0.5166364136021553,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,7,99,99,609,6955,6.79,6.009429522924199,0.7805704770758011,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,7,99,99,610,6963,7.94,7.787649691256108,0.152350308743892,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,7,99,99,611,6971,8.15,8.916812451114442,-0.7668124511144416,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,7,99,99,612,6979,6.87,7.575529335151206,-0.7055293351512057,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,7,99,99,613,6987,7.33,7.134606491824017,0.19539350817598322,"{""n_components"": 5}"
+partial_least_squares,Partial least squares,7,99,99,614,6995,7.93,8.043997059596975,-0.1139970595969757,"{""n_components"": 5}"
+random_forest,Random forest,1,2,2,11,13,10.5,10.370725402095216,0.12927459790478402,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,1,2,2,12,22,11.0,9.703861940761884,1.2961380592381158,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,1,2,2,13,31,11.0,9.834090633333329,1.1659093666666713,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,1,2,2,14,40,9.5,9.094703256571426,0.4052967434285737,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,1,2,2,15,49,9.3,9.175337263047618,0.1246627369523825,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,2,14,14,64,211,12.33,11.435961495047552,0.894038504952448,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,2,14,14,65,218,8.75,8.650124281333309,0.09987571866669143,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,2,14,14,66,225,7.51,7.584951933333307,-0.07495193333330707,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,2,14,14,67,232,10.75,10.017906976761898,0.732093023238102,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,2,14,14,68,239,6.49,8.151952535999998,-1.6619525359999976,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,3,15,15,71,246,12.357072,11.399221365079343,0.957850634920657,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,3,15,15,72,253,4.6046,8.895428190476173,-4.290828190476173,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,3,15,15,73,260,7.312942,9.48485504761906,-2.1719130476190607,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,3,15,15,74,267,8.702694,9.42081547619048,-0.7181214761904808,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,119,894,12.62,12.697974149333303,-0.07797414933330415,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,120,897,12.73,12.697974149333303,0.03202585066669705,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,121,900,12.85,12.486828837333311,0.3631711626666885,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,122,903,12.99,12.486828837333311,0.503171162666689,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,123,906,12.74,12.527166865333305,0.2128331346666954,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,124,909,12.82,12.527166865333305,0.29283313466669547,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,125,912,13.03,12.527166865333305,0.5028331346666945,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,126,915,12.53,12.527166865333305,0.002833134666694548,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,127,918,12.16,12.721686149333307,-0.5616861493333065,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,128,921,12.64,12.721686149333307,-0.08168614933330609,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,129,924,12.68,12.721686149333307,-0.04168614933330694,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,130,927,12.63,12.721686149333307,-0.09168614933330588,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,131,930,13.09,12.697598149333308,0.3924018506666922,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,132,933,12.88,12.697598149333308,0.18240185066669312,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,133,936,12.72,12.697598149333308,0.02240185066669298,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,134,939,12.85,12.697598149333308,0.15240185066669198,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,135,942,12.62,12.66299414933331,-0.04299414933331036,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,136,945,12.66,12.66299414933331,-0.002994149333309437,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,137,948,12.35,12.66299414933331,-0.31299414933330993,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,4,20,20,138,951,12.49,12.66299414933331,-0.17299414933330937,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,5,46,46,308,2745,13.21,12.002782530920625,1.2072174690793762,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,5,46,46,308,2748,13.69,12.002782530920625,1.6872174690793749,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,5,46,46,309,2751,10.4,10.695876889333336,-0.29587688933333567,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,5,46,46,309,2754,10.62,10.695876889333336,-0.0758768893333368,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,6,77,77,504,5499,12.46,11.577637937269824,0.8823620627301771,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,6,77,77,505,5504,11.34,10.291102179047611,1.048897820952389,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,6,77,77,506,5509,11.71,8.71696706,2.993032940000001,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,6,77,77,507,5514,8.83,9.020110213333332,-0.1901102133333321,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,7,99,99,609,6955,6.79,8.358614858666687,-1.5686148586666873,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,7,99,99,610,6963,7.94,8.051966238666692,-0.11196623866669153,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,7,99,99,611,6971,8.15,8.410511797333356,-0.26051179733335594,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,7,99,99,612,6979,6.87,8.645223610666692,-1.7752236106666919,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,7,99,99,613,6987,7.33,8.358768641333356,-1.0287686413333557,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+random_forest,Random forest,7,99,99,614,6995,7.93,8.230704746666696,-0.3007047466666961,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}"
+ridge_regression,Ridge regression,1,2,2,11,13,10.5,13.245592239574897,-2.745592239574897,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,1,2,2,12,22,11.0,11.537624452263694,-0.5376244522636942,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,1,2,2,13,31,11.0,12.39841807376215,-1.3984180737621497,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,1,2,2,14,40,9.5,10.611576211548261,-1.111576211548261,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,1,2,2,15,49,9.3,9.789035304017592,-0.489035304017591,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,2,14,14,64,211,12.33,11.578973128609151,0.7510268713908488,"{""alpha"": 0.01}"
+ridge_regression,Ridge regression,2,14,14,65,218,8.75,8.597346675707108,0.15265332429289202,"{""alpha"": 0.01}"
+ridge_regression,Ridge regression,2,14,14,66,225,7.51,7.408635895537666,0.10136410446233413,"{""alpha"": 0.01}"
+ridge_regression,Ridge regression,2,14,14,67,232,10.75,9.528455114026167,1.2215448859738327,"{""alpha"": 0.01}"
+ridge_regression,Ridge regression,2,14,14,68,239,6.49,6.657214358241613,-0.1672143582416128,"{""alpha"": 0.01}"
+ridge_regression,Ridge regression,3,15,15,71,246,12.357072,11.867864140296025,0.48920785970397596,"{""alpha"": 0.1}"
+ridge_regression,Ridge regression,3,15,15,72,253,4.6046,6.14647594013012,-1.5418759401301205,"{""alpha"": 0.1}"
+ridge_regression,Ridge regression,3,15,15,73,260,7.312942,8.87667532137915,-1.56373332137915,"{""alpha"": 0.1}"
+ridge_regression,Ridge regression,3,15,15,74,267,8.702694,8.121840713784,0.5808532862159996,"{""alpha"": 0.1}"
+ridge_regression,Ridge regression,4,20,20,119,894,12.62,12.484187987303368,0.1358120126966309,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,120,897,12.73,12.484187987303368,0.2458120126966321,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,121,900,12.85,12.463667340730531,0.3863326592694687,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,122,903,12.99,12.463667340730531,0.5263326592694693,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,123,906,12.74,12.508460207067191,0.2315397929328089,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,124,909,12.82,12.508460207067191,0.311539792932809,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,125,912,13.03,12.508460207067191,0.521539792932808,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,126,915,12.53,12.508460207067191,0.021539792932808055,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,127,918,12.16,12.60351050058227,-0.4435105005822706,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,128,921,12.64,12.60351050058227,0.03648949941772983,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,129,924,12.68,12.60351050058227,0.07648949941772898,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,130,927,12.63,12.60351050058227,0.026489499417730045,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,131,930,13.09,12.413682499376664,0.6763175006233357,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,132,933,12.88,12.413682499376664,0.46631750062333666,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,133,936,12.72,12.413682499376664,0.3063175006233365,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,134,939,12.85,12.413682499376664,0.4363175006233355,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,135,942,12.62,12.393064625460156,0.2269353745398437,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,136,945,12.66,12.393064625460156,0.2669353745398446,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,137,948,12.35,12.393064625460156,-0.04306462546015588,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,4,20,20,138,951,12.49,12.393064625460156,0.09693537453984469,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,5,46,46,308,2745,13.21,12.961389318054703,0.24861068194529778,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,5,46,46,308,2748,13.69,12.961389318054703,0.7286106819452964,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,5,46,46,309,2751,10.4,10.728537571588086,-0.32853757158808605,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,5,46,46,309,2754,10.62,10.728537571588086,-0.10853757158808719,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,6,77,77,504,5499,12.46,11.907761495374853,0.5522385046251479,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,6,77,77,505,5504,11.34,12.15784333124753,-0.8178433312475306,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,6,77,77,506,5509,11.71,9.344972702432447,2.365027297567554,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,6,77,77,507,5514,8.83,8.089380678663446,0.7406193213365544,"{""alpha"": 1.0}"
+ridge_regression,Ridge regression,7,99,99,609,6955,6.79,6.052613966223079,0.7373860337769207,"{""alpha"": 0.1}"
+ridge_regression,Ridge regression,7,99,99,610,6963,7.94,7.794702968228233,0.14529703177176767,"{""alpha"": 0.1}"
+ridge_regression,Ridge regression,7,99,99,611,6971,8.15,8.931038262130105,-0.7810382621301049,"{""alpha"": 0.1}"
+ridge_regression,Ridge regression,7,99,99,612,6979,6.87,7.599659214980721,-0.7296592149807211,"{""alpha"": 0.1}"
+ridge_regression,Ridge regression,7,99,99,613,6987,7.33,7.157777620210399,0.1722223797896012,"{""alpha"": 0.1}"
+ridge_regression,Ridge regression,7,99,99,614,6995,7.93,8.054272007115118,-0.12427200711511865,"{""alpha"": 0.1}"
+training_mean,Training mean,1,2,2,11,13,10.5,10.933890883720931,-0.433890883720931,{}
+training_mean,Training mean,1,2,2,12,22,11.0,10.933890883720931,0.06610911627906901,{}
+training_mean,Training mean,1,2,2,13,31,11.0,10.933890883720931,0.06610911627906901,{}
+training_mean,Training mean,1,2,2,14,40,9.5,10.933890883720931,-1.433890883720931,{}
+training_mean,Training mean,1,2,2,15,49,9.3,10.933890883720931,-1.6338908837209303,{}
+training_mean,Training mean,2,14,14,64,211,12.33,11.061100186046511,1.2688998139534888,{}
+training_mean,Training mean,2,14,14,65,218,8.75,11.061100186046511,-2.3111001860465112,{}
+training_mean,Training mean,2,14,14,66,225,7.51,11.061100186046511,-3.5511001860465115,{}
+training_mean,Training mean,2,14,14,67,232,10.75,11.061100186046511,-0.31110018604651124,{}
+training_mean,Training mean,2,14,14,68,239,6.49,11.061100186046511,-4.571100186046511,{}
+training_mean,Training mean,3,15,15,71,246,12.357072,11.101818181818182,1.255253818181819,{}
+training_mean,Training mean,3,15,15,72,253,4.6046,11.101818181818182,-6.497218181818182,{}
+training_mean,Training mean,3,15,15,73,260,7.312942,11.101818181818182,-3.788876181818182,{}
+training_mean,Training mean,3,15,15,74,267,8.702694,11.101818181818182,-2.3991241818181823,{}
+training_mean,Training mean,4,20,20,119,894,12.62,9.549189571428572,3.070810428571427,{}
+training_mean,Training mean,4,20,20,120,897,12.73,9.549189571428572,3.1808104285714283,{}
+training_mean,Training mean,4,20,20,121,900,12.85,9.549189571428572,3.3008104285714275,{}
+training_mean,Training mean,4,20,20,122,903,12.99,9.549189571428572,3.440810428571428,{}
+training_mean,Training mean,4,20,20,123,906,12.74,9.549189571428572,3.190810428571428,{}
+training_mean,Training mean,4,20,20,124,909,12.82,9.549189571428572,3.270810428571428,{}
+training_mean,Training mean,4,20,20,125,912,13.03,9.549189571428572,3.480810428571427,{}
+training_mean,Training mean,4,20,20,126,915,12.53,9.549189571428572,2.980810428571427,{}
+training_mean,Training mean,4,20,20,127,918,12.16,9.549189571428572,2.610810428571428,{}
+training_mean,Training mean,4,20,20,128,921,12.64,9.549189571428572,3.0908104285714284,{}
+training_mean,Training mean,4,20,20,129,924,12.68,9.549189571428572,3.1308104285714276,{}
+training_mean,Training mean,4,20,20,130,927,12.63,9.549189571428572,3.0808104285714286,{}
+training_mean,Training mean,4,20,20,131,930,13.09,9.549189571428572,3.5408104285714277,{}
+training_mean,Training mean,4,20,20,132,933,12.88,9.549189571428572,3.3308104285714286,{}
+training_mean,Training mean,4,20,20,133,936,12.72,9.549189571428572,3.1708104285714285,{}
+training_mean,Training mean,4,20,20,134,939,12.85,9.549189571428572,3.3008104285714275,{}
+training_mean,Training mean,4,20,20,135,942,12.62,9.549189571428572,3.070810428571427,{}
+training_mean,Training mean,4,20,20,136,945,12.66,9.549189571428572,3.110810428571428,{}
+training_mean,Training mean,4,20,20,137,948,12.35,9.549189571428572,2.8008104285714275,{}
+training_mean,Training mean,4,20,20,138,951,12.49,9.549189571428572,2.940810428571428,{}
+training_mean,Training mean,5,46,46,308,2745,13.21,10.762211545454546,2.4477884545454547,{}
+training_mean,Training mean,5,46,46,308,2748,13.69,10.762211545454546,2.9277884545454533,{}
+training_mean,Training mean,5,46,46,309,2751,10.4,10.762211545454546,-0.3622115454545458,{}
+training_mean,Training mean,5,46,46,309,2754,10.62,10.762211545454546,-0.14221154545454695,{}
+training_mean,Training mean,6,77,77,504,5499,12.46,10.843575181818181,1.6164248181818195,{}
+training_mean,Training mean,6,77,77,505,5504,11.34,10.843575181818181,0.4964248181818185,{}
+training_mean,Training mean,6,77,77,506,5509,11.71,10.843575181818181,0.8664248181818195,{}
+training_mean,Training mean,6,77,77,507,5514,8.83,10.843575181818181,-2.0135751818181813,{}
+training_mean,Training mean,7,99,99,609,6955,6.79,11.343983523809523,-4.553983523809523,{}
+training_mean,Training mean,7,99,99,610,6963,7.94,11.343983523809523,-3.403983523809523,{}
+training_mean,Training mean,7,99,99,611,6971,8.15,11.343983523809523,-3.193983523809523,{}
+training_mean,Training mean,7,99,99,612,6979,6.87,11.343983523809523,-4.473983523809523,{}
+training_mean,Training mean,7,99,99,613,6987,7.33,11.343983523809523,-4.013983523809523,{}
+training_mean,Training mean,7,99,99,614,6995,7.93,11.343983523809523,-3.4139835238095237,{}

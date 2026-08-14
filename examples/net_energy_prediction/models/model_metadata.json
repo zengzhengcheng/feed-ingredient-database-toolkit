@@ -1,0 +1,1406 @@
+{
+  "artifact_purpose": "Data-reuse demonstration; not a universal equation or feeding recommendation",
+  "dependencies": {
+    "joblib": "1.4.2",
+    "matplotlib": "3.9.2",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "python": "3.12.7",
+    "scikit_learn": "1.5.1"
+  },
+  "feature_order": [
+    "CP",
+    "EE",
+    "Ash",
+    "NDF",
+    "ADF",
+    "GE"
+  ],
+  "feature_units": {
+    "ADF": "% dry matter",
+    "Ash": "% dry matter",
+    "CP": "% dry matter",
+    "EE": "% dry matter",
+    "GE": "MJ/kg dry matter",
+    "NDF": "% dry matter"
+  },
+  "models": {
+    "ordinary_linear_regression": {
+      "full_data_inner_candidates": [],
+      "model_details": {
+        "original_unit_coefficients": {
+          "ADF": 0.025597270202218813,
+          "Ash": -0.4586070369971295,
+          "CP": 0.0069331825579717656,
+          "EE": 0.1567786438663213,
+          "GE": 0.30604742133911333,
+          "NDF": -0.11441107909422882
+        },
+        "original_unit_intercept": 8.382184929700045,
+        "scaler_mean": {
+          "ADF": 8.453541666666666,
+          "Ash": 3.9170833333333337,
+          "CP": 19.658333333333335,
+          "EE": 4.616666666666666,
+          "GE": 19.129880458333332,
+          "NDF": 23.190208333333334
+        },
+        "scaler_scale": {
+          "ADF": 6.286443579104476,
+          "Ash": 2.773688848156709,
+          "CP": 13.15038201810967,
+          "EE": 3.7492378855204986,
+          "GE": 1.1298693745865227,
+          "NDF": 12.833426810739102
+        },
+        "standardized_feature_coefficients": {
+          "ADF": 0.16091579490534078,
+          "Ash": -1.2720332242051293,
+          "CP": 0.09117399923862352,
+          "EE": 0.5878004312241377,
+          "GE": 0.345793608542242,
+          "NDF": -1.4682862098934681
+        },
+        "standardized_intercept": 10.863693916666668
+      },
+      "selected_hyperparameters": {}
+    },
+    "partial_least_squares": {
+      "full_data_inner_candidates": [
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.2523215979687794
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.4632187149905661
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.0497974598995112
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.22596060550894537
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.3615572838739438
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 0.8527790760837095
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.44984971983790806
+            }
+          ],
+          "params": {
+            "n_components": 4
+          },
+          "study_macro_mae": 0.6650692083090519
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.3535873349709313
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.459874908162603
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.0309640473319757
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.22416767149461742
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.35834623640923846
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 0.8720383900182607
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.45244218997638325
+            }
+          ],
+          "params": {
+            "n_components": 5
+          },
+          "study_macro_mae": 0.6787743969091443
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.3519320452291865
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.47924500064158304
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.0413769091466147
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.22321223573075732
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.3560574068667317
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 0.9810763725948899
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.45068354920806436
+            }
+          ],
+          "params": {
+            "n_components": 6
+          },
+          "study_macro_mae": 0.6976547884882611
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.1174266229877408
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.42928028526065437
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.125284710440817
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.23561794020547291
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.5120468245516148
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.9296877100665322
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.45872934950264427
+            }
+          ],
+          "params": {
+            "n_components": 3
+          },
+          "study_macro_mae": 0.8297247775736395
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.0540130444253957
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.7021680512497962
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.209588694260821
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.3048584430389263
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.389959136678915
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 2.3924442041511065
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.1021625188293962
+            }
+          ],
+          "params": {
+            "n_components": 2
+          },
+          "study_macro_mae": 1.022170584662051
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.761940156519978
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.9241386533254182
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.1934750417158195
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.7964245282125966
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.5295719221017037
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 2.8224500128406556
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.991954758119174
+            }
+          ],
+          "params": {
+            "n_components": 1
+          },
+          "study_macro_mae": 1.431422153262192
+        }
+      ],
+      "model_details": {
+        "scaler_mean": {
+          "ADF": 8.453541666666666,
+          "Ash": 3.9170833333333337,
+          "CP": 19.658333333333335,
+          "EE": 4.616666666666666,
+          "GE": 19.129880458333332,
+          "NDF": 23.190208333333334
+        },
+        "scaler_scale": {
+          "ADF": 6.286443579104476,
+          "Ash": 2.773688848156709,
+          "CP": 13.15038201810967,
+          "EE": 3.7492378855204986,
+          "GE": 1.1298693745865227,
+          "NDF": 12.833426810739102
+        },
+        "standardized_x_coefficients": [
+          0.08098923433160882,
+          0.581370056907633,
+          -1.2584233812012036,
+          -1.4807930051190428,
+          0.16504489423926816,
+          0.3514859498810356
+        ],
+        "x_loadings": [
+          [
+            0.41525676684136553,
+            0.33350639114639224,
+            0.4552186404642174,
+            0.690750556898275
+          ],
+          [
+            -0.030990512379437972,
+            0.715077814997052,
+            -0.48387105089327825,
+            -0.3457984574759118
+          ],
+          [
+            0.5252644432739776,
+            0.18932193644977727,
+            -0.36083792311126844,
+            0.27974559423096174
+          ],
+          [
+            0.5409147434952394,
+            -0.1374199599879561,
+            -0.43904588848613785,
+            -0.2976976789550717
+          ],
+          [
+            0.5293781156330495,
+            -0.033828055134312106,
+            0.5255761260423105,
+            -0.4687661304878967
+          ],
+          [
+            0.2565728867563622,
+            0.6744599883134361,
+            -0.21527920433775924,
+            -0.1376300282767783
+          ]
+        ],
+        "x_weights": [
+          [
+            0.28862096751438543,
+            0.42698400095702194,
+            0.25600174694247696,
+            0.6758129537857899
+          ],
+          [
+            -0.20143266062262946,
+            0.5746879695580899,
+            -0.38447758514757896,
+            -0.3371771865586151
+          ],
+          [
+            0.5180910443866021,
+            0.024186893229800107,
+            -0.4522458333217701,
+            0.3100874062771401
+          ],
+          [
+            0.6189147052729999,
+            -0.2629962137986645,
+            -0.34390845481778204,
+            -0.32273924628783857
+          ],
+          [
+            0.4680011772745945,
+            0.20694756811316614,
+            0.6593983339688345,
+            -0.453971448014228
+          ],
+          [
+            0.07499317127830342,
+            0.61224103941784,
+            -0.17039545237051948,
+            -0.15226128897878208
+          ]
+        ],
+        "y_loadings": [
+          [
+            -1.2688205336887282,
+            0.6394586832402195,
+            0.8708586691257888,
+            -0.18204574376578359
+          ]
+        ]
+      },
+      "selected_hyperparameters": {
+        "n_components": 4
+      }
+    },
+    "random_forest": {
+      "full_data_inner_candidates": [
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.6242563008381055
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.6925823432381092
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.034678337301593
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.20230017306666967
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.8165471792063559
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.2786007592539748
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.8409649822222464
+            }
+          ],
+          "params": {
+            "max_depth": null,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1
+          },
+          "study_macro_mae": 0.9271328678752935
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.5269661085333371
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.6827880171809764
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.8506450238095309
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.17775014998095767
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.994650572253978
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.4601922159047684
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.0734847644444627
+            }
+          ],
+          "params": {
+            "max_depth": null,
+            "max_features": 1.0,
+            "min_samples_leaf": 1
+          },
+          "study_macro_mae": 0.9666395503011443
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.5478952342348741
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.732988842382469
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.811994785392487
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.18862422881044133
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.9835387073408834
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.4722949151100453
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.1619735589248468
+            }
+          ],
+          "params": {
+            "max_depth": 3,
+            "max_features": 1.0,
+            "min_samples_leaf": 1
+          },
+          "study_macro_mae": 0.9856157531708638
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.6993404006703525
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.774121628564165
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.137131375357172
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.20642638469500207
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.7899763397880482
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.308486462295814
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.132288703661909
+            }
+          ],
+          "params": {
+            "max_depth": 3,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1
+          },
+          "study_macro_mae": 1.0068244707189231
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.7551718168939757
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.7184875045757593
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.090373028860031
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.37846291956382433
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.8088096370647251
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.3875051320234872
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.9724738480952279
+            }
+          ],
+          "params": {
+            "max_depth": null,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2
+          },
+          "study_macro_mae": 1.0158976981538614
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.9008437020895294
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.7718188622690907
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.794393844336208
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.21605327958096235
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.9831685150625495
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.498183781469375
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.9767755646603761
+            }
+          ],
+          "params": {
+            "max_depth": null,
+            "max_features": 1.0,
+            "min_samples_leaf": 2
+          },
+          "study_macro_mae": 1.020176792781156
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.9099615471454481
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.7724715039809876
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.787865066788207
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.22126986096590331
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.9846609942805888
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.4934705228898593
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.0324620409124334
+            }
+          ],
+          "params": {
+            "max_depth": 3,
+            "max_features": 1.0,
+            "min_samples_leaf": 2
+          },
+          "study_macro_mae": 1.028880219566204
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.7962917638872703
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.7543708025514105
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.155830909690131
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.3851010779490978
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.807185093967973
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.4235975732838502
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.9852199018944456
+            }
+          ],
+          "params": {
+            "max_depth": 3,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2
+          },
+          "study_macro_mae": 1.0439424461748827
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.6878641122323959
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.7352437842302045
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.8143344949340938
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.281605622668642
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.9559396912072038
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.5334118194920296
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.3386998410503217
+            }
+          ],
+          "params": {
+            "max_depth": 2,
+            "max_features": 1.0,
+            "min_samples_leaf": 1
+          },
+          "study_macro_mae": 1.0495856236878416
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.00334852470939
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.7485662357786126
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.818187874077379
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.2740542435103861
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.9799819707086903
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.5363712049707192
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.1498055949599169
+            }
+          ],
+          "params": {
+            "max_depth": 2,
+            "max_features": 1.0,
+            "min_samples_leaf": 2
+          },
+          "study_macro_mae": 1.0729022355307276
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.8071852415469
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.9004285078327946
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.2587630198773576
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.3290063608677708
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.8353862671923813
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.38785342372065
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.3931264944584594
+            }
+          ],
+          "params": {
+            "max_depth": 2,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1
+          },
+          "study_macro_mae": 1.130249902213759
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.8784800667359587
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.8436318762117715
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.247833265689322
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.49513476804607287
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.8473093968836731
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.4277972760724684
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.2771919585636655
+            }
+          ],
+          "params": {
+            "max_depth": 2,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2
+          },
+          "study_macro_mae": 1.1453398011718474
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.3526051648986535
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.8081070431478692
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.902694319305696
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.8203422573551855
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 1.1190733301759743
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.4871379609403397
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.1443129720517404
+            }
+          ],
+          "params": {
+            "max_depth": null,
+            "max_features": 1.0,
+            "min_samples_leaf": 4
+          },
+          "study_macro_mae": 1.2334675782679223
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.35326909740763
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.8242546791320047
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.899190375957203
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.8203422573551855
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 1.122459352272689
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.4877244715748226
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.1421973207042417
+            }
+          ],
+          "params": {
+            "max_depth": 3,
+            "max_features": 1.0,
+            "min_samples_leaf": 4
+          },
+          "study_macro_mae": 1.2356339363433968
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.3509569928802914
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.8013568875163507
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.9078731182506656
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.823965894507505
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 1.1306860306774342
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.5120154226596227
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.1645635469168867
+            }
+          ],
+          "params": {
+            "max_depth": 2,
+            "max_features": 1.0,
+            "min_samples_leaf": 4
+          },
+          "study_macro_mae": 1.2416311276298224
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.98142839348715
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.8465317019701846
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.311681879072923
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 1.2960858669291582
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.8614813724594712
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.4507832658444273
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.2636056396019792
+            }
+          ],
+          "params": {
+            "max_depth": 3,
+            "max_features": "sqrt",
+            "min_samples_leaf": 4
+          },
+          "study_macro_mae": 1.2873711599093274
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.9920806598207648
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.8421875487888911
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.3126185373099153
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 1.2960858669291582
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.8542170755704217
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.473125643912205
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.2865315224453044
+            }
+          ],
+          "params": {
+            "max_depth": null,
+            "max_features": "sqrt",
+            "min_samples_leaf": 4
+          },
+          "study_macro_mae": 1.2938352649680946
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.9383607054049395
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.8688583434891969
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.334345299683171
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 1.3037034172910633
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.8819044721242038
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.4945499837156753
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.3400958464192059
+            }
+          ],
+          "params": {
+            "max_depth": 2,
+            "max_features": "sqrt",
+            "min_samples_leaf": 4
+          },
+          "study_macro_mae": 1.3088311525896366
+        }
+      ],
+      "model_details": {
+        "feature_importances": {
+          "ADF": 0.12999685994560065,
+          "Ash": 0.10831324528740617,
+          "CP": 0.24922179060859714,
+          "EE": 0.09272267309247285,
+          "GE": 0.1139552606133742,
+          "NDF": 0.30579017045254897
+        }
+      },
+      "selected_hyperparameters": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1
+      }
+    },
+    "ridge_regression": {
+      "full_data_inner_candidates": [
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.3412434795042845
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.47446962979798163
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.0439176018573115
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.2268885403977216
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.35583700852712363
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 0.991148350891641
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.4483124882607057
+            }
+          ],
+          "params": {
+            "alpha": 0.1
+          },
+          "study_macro_mae": 0.6974024427481099
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.350849259636713
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.4787607088723041
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.0416309048354377
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.22358223948986627
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.35603585428032636
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 0.9819816569994666
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.4504449950209904
+            }
+          ],
+          "params": {
+            "alpha": 0.01
+          },
+          "study_macro_mae": 0.6976122313050148
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 1.2564492562333185
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.436886704657274
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.0666111895231603
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.2741284133035964
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.35357412676669187
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.1189321136941968
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 0.4292934631774619
+            }
+          ],
+          "params": {
+            "alpha": 1.0
+          },
+          "study_macro_mae": 0.7051250381936713
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.8223016618578814
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 0.4587313847182541
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 1.2874277367047182
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 0.8128464109005954
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.38139371426826196
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.706008487173242
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 1.0894310617213392
+            }
+          ],
+          "params": {
+            "alpha": 10.0
+          },
+          "study_macro_mae": 0.9368772081920417
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.5096753592846109
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 1.3353787858815789
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 2.5374161406109828
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 2.3329530711685593
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 0.815695976776412
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.518578726094089
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 2.6917974005638285
+            }
+          ],
+          "params": {
+            "alpha": 100.0
+          },
+          "study_macro_mae": 1.6773564943400088
+        },
+        {
+          "inner_fold_mae": [
+            {
+              "held_out_study_id": 2,
+              "mae": 0.682103471946423
+            },
+            {
+              "held_out_study_id": 14,
+              "mae": 2.175900533956539
+            },
+            {
+              "held_out_study_id": 15,
+              "mae": 3.3351282077055395
+            },
+            {
+              "held_out_study_id": 20,
+              "mae": 3.044208324924097
+            },
+            {
+              "held_out_study_id": 46,
+              "mae": 1.295279859823475
+            },
+            {
+              "held_out_study_id": 77,
+              "mae": 1.3039821682242287
+            },
+            {
+              "held_out_study_id": 99,
+              "mae": 3.646328413168874
+            }
+          ],
+          "params": {
+            "alpha": 1000.0
+          },
+          "study_macro_mae": 2.211847282821311
+        }
+      ],
+      "model_details": {
+        "original_unit_coefficients": {
+          "ADF": 0.02465126545983746,
+          "Ash": -0.4564446438786037,
+          "CP": 0.006761566497416842,
+          "EE": 0.15640800466474275,
+          "GE": 0.30483413224407235,
+          "NDF": -0.11405071085212151
+        },
+        "original_unit_intercept": 8.401649610271317,
+        "scaler_mean": {
+          "ADF": 8.453541666666666,
+          "Ash": 3.9170833333333337,
+          "CP": 19.658333333333335,
+          "EE": 4.616666666666666,
+          "GE": 19.129880458333332,
+          "NDF": 23.190208333333334
+        },
+        "scaler_scale": {
+          "ADF": 6.286443579104476,
+          "Ash": 2.773688848156709,
+          "CP": 13.15038201810967,
+          "EE": 3.7492378855204986,
+          "GE": 1.1298693745865227,
+          "NDF": 12.833426810739102
+        },
+        "standardized_feature_coefficients": {
+          "ADF": 0.15496878946679513,
+          "Ash": -1.2660354185269433,
+          "CP": 0.08891718248188323,
+          "EE": 0.5864108166877204,
+          "GE": 0.3444227503512354,
+          "NDF": -1.4636614504334693
+        },
+        "standardized_intercept": 10.863693916666668
+      },
+      "selected_hyperparameters": {
+        "alpha": 0.1
+      }
+    }
+  },
+  "parameter_ranges": {
+    "pls_components": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "random_forest": {
+      "max_depth": [
+        2,
+        3,
+        null
+      ],
+      "max_features": [
+        "sqrt",
+        1.0
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        4
+      ],
+      "n_estimators": 500
+    },
+    "ridge_alpha": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ]
+  },
+  "random_seed": 20260813,
+  "reporting_basis": "dry matter",
+  "target": "Pig ingredient NE",
+  "target_unit": "MJ/kg dry matter",
+  "training_ingredient_samples": 46,
+  "training_observations": 48,
+  "training_studies": 7
+}

@@ -1,0 +1,71 @@
+{
+  "version_date": "2026-08-14",
+  "repository": {
+    "owner": "zengzhengcheng",
+    "name": "feed-ingredient-database-toolkit",
+    "expected_visibility": "private",
+    "expected_default_branch": "main",
+    "related_article_or_project": "Not applicable",
+    "code_license": "pending author decision"
+  },
+  "verified_environment": {
+    "operating_system": "Windows 11 10.0.26200",
+    "python": "3.12.13",
+    "pyqt6": "6.11.0",
+    "qt": "6.11.0",
+    "openpyxl": "3.1.5",
+    "pytest": "9.1.1",
+    "scikit_learn": "1.5.1",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "joblib": "1.5.3"
+  },
+  "automated_tests": {
+    "command": "conda run -n pyqt312 python -m pytest -q",
+    "passed": 80,
+    "failed": 0,
+    "result": "pass"
+  },
+  "gui_smoke": {
+    "command": "run_gui.bat --smoke-test",
+    "result": "pass",
+    "window_title": "饲料原料数据库辅助工具",
+    "tab_count": 4,
+    "offscreen": true
+  },
+  "dependency_compatibility": {
+    "saved_model_scikit_learn": "1.5.1",
+    "optional_dependency_pin": "scikit-learn==1.5.1",
+    "saved_model_prediction_tests": "pass"
+  },
+  "documentation": {
+    "english_readme": "README.md",
+    "chinese_readme": "README_CN.md",
+    "relative_links_checked": 52,
+    "broken_relative_links": 0,
+    "local_absolute_path_hits": 0,
+    "internal_or_old_platform_wording_hits": 0
+  },
+  "repository_boundary": {
+    "files_excluding_git": 121,
+    "formal_sqlite_or_working_database_files": [],
+    "formal_or_source_workbooks": [],
+    "allowed_blank_template": "templates/feed_ingredient_contribution_template.xlsx",
+    "article_pdf_or_full_text_files": [],
+    "source_image_or_ocr_files": [],
+    "cache_or_temporary_files": [],
+    "possible_secret_hits": [],
+    "license_file_present": false,
+    "example_result_figures": 4,
+    "trusted_example_model_artifacts": 8,
+    "passed": true
+  },
+  "query_rule_files": [
+    "examples/metabolizable_energy_all_ingredients/extract_pig_me_cohort.sql",
+    "examples/net_energy_prediction/extract_pig_ne_cohort.sql",
+    "examples/query_rules/01_原料成分查询.sql",
+    "examples/query_rules/02_动物营养价值查询.sql",
+    "examples/query_rules/03_候选词汇总.sql"
+  ],
+  "passed": true
+}

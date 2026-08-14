@@ -1,0 +1,34 @@
+{
+  "database_access": "SQLite URI mode=ro with PRAGMA query_only=ON",
+  "duplicate_target_ids": 0,
+  "feature_order": [
+    "CP",
+    "EE",
+    "Ash",
+    "NDF",
+    "ADF",
+    "GE"
+  ],
+  "feature_units": {
+    "ADF": "% dry matter",
+    "Ash": "% dry matter",
+    "CP": "% dry matter",
+    "EE": "% dry matter",
+    "GE": "MJ/kg dry matter",
+    "NDF": "% dry matter"
+  },
+  "ingredient_samples": 46,
+  "observations": 48,
+  "studies": 7,
+  "study_observation_counts": {
+    "14": 5,
+    "15": 4,
+    "2": 5,
+    "20": 20,
+    "46": 4,
+    "77": 4,
+    "99": 6
+  },
+  "target": "NE",
+  "target_unit": "MJ/kg dry matter"
+}

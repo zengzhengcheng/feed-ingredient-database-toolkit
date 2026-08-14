@@ -1,0 +1,50 @@
+context,canonical_metric,allowed_unit,is_default_when_omitted,status,source_kind,source_table,source_id,note
+energy,AME,MJ/kg,1,approved,legacy_dictionary,nutrient_name,11026,Historical AME rule
+energy,AMEn,MJ/kg,1,approved,legacy_dictionary,nutrient_name,11027,Historical AMEn rule
+energy,TME,MJ/kg,1,approved,legacy_dictionary,nutrient_name,11028,Historical TME rule
+energy,TMEn,MJ/kg,1,approved,user_curation,term_review,2026-08-10,User confirmed historical TMEn uses MJ/kg
+energy,DE,MJ/kg,1,approved,legacy_dictionary,nutrient_name,10066,Historical digestible energy rule
+energy,ME,MJ/kg,1,approved,legacy_dictionary,nutrient_name,10067,Historical metabolizable energy rule
+energy,NE,MJ/kg,1,approved,legacy_dictionary,nutrient_name,10068,Historical net energy rule
+composition,GE,MJ/kg,1,approved,legacy_dictionary,nutrient_name,8001,Historical gross energy rule
+AID,GE,MJ/kg,1,approved,legacy_dictionary,digestible_nutrient_name,3021,Historical AID gross energy rule
+SID,GE,MJ/kg,1,approved,legacy_dictionary,digestible_nutrient_name,4001,Historical SID gross energy rule
+ATTD,GE,MJ/kg,1,approved,legacy_dictionary,digestible_nutrient_name,1024,Historical ATTD gross energy rule
+composition,Vitamin A,IU/kg,1,approved,legacy_dictionary,nutrient_name,11031,Historical vitamin A rule
+composition,Trypsin inhibitor,TIU/mg,1,approved,source_workbook,metric_profile,,Explicit historical labels
+composition,1000-kernel weight,g,1,approved,user_curation,term_review,2026-08-10,Unit embedded or omitted in historical kernel-weight labels
+composition,Corn particle size,µm,1,approved,user_curation,term_review,2026-08-10,User-confirmed particle-size unit
+composition,Geometric mean diameter (DGM),µm,1,approved,user_curation,term_review,2026-08-10,User-confirmed DGM unit
+composition,Particle size,µm,1,approved,user_curation,term_review,2026-08-10,User-confirmed particle-size unit
+composition,Geometric mean particle size,µm,1,approved,user_curation,term_review,2026-08-10,User-confirmed geometric-mean particle-size unit
+composition,Electrolyte,mEq/kg,1,approved,user_curation,term_review,2026-08-10,Unit is carried in the source metric label
+composition,Peroxide value,mEq/kg,1,approved,user_curation,term_review,2026-08-10,Unit is carried in the source metric label
+composition,pH,1,1,approved,user_curation,term_review,2026-08-10,pH is dimensionless
+composition,Color score L,1,1,approved,user_curation,term_review,2026-08-10,Color coordinate is dimensionless
+composition,Color score a,1,1,approved,user_curation,term_review,2026-08-10,Color coordinate is dimensionless
+composition,Color score b,1,1,approved,user_curation,term_review,2026-08-10,Color coordinate is dimensionless
+composition,Thiobarbituric acid absorbance (532 nm),1,1,approved,user_curation,term_review,2026-08-10,Absorbance is dimensionless
+composition,Phytase activity,FTU/kg,1,approved,user_curation,term_review,2026-08-10,User-confirmed phytase activity unit
+composition,Trypsin inhibitor content,mg/g,1,approved,user_curation,term_review,2026-08-10,User-confirmed content unit
+composition,Trypsin inhibitor activity,unit/mg,1,approved,user_curation,term_review,2026-08-10,User-confirmed activity unit
+composition,Urease activity,pH unit rise,1,approved,user_curation,term_review,2026-08-10,User-confirmed urease activity unit
+composition,Water binding capacity,g/g,1,approved,user_curation,term_review,2026-08-10,Unit is carried in the source metric label
+composition,Lactobacillus viable count,CFU/g,1,approved,source_article,table,10.1016/j.aninu.2021.11.007,Source-verified viable microbial count
+composition,Bacillus subtilis viable count,CFU/g,1,approved,source_article,table,10.1016/j.aninu.2021.11.007,Source-verified viable microbial count
+composition,Acetic acid,mmol/kg,1,approved,source_workbook,metric_label,,Unit is carried in the source metric label
+composition,Propionic acid,mmol/kg,1,approved,source_workbook,metric_label,,Unit is carried in the source metric label
+composition,Butyric acid,mmol/kg,1,approved,source_workbook,metric_label,,Unit is carried in the source metric label
+composition,Total glucosinolates,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,2-OH-3-Butenyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,Epi-2-OH-3-Butenyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,4-CH3-Sulfinyl-butyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,2-OH-4-Pentenyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,5-CH3-Sulfinyl-pentyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,3-Butenyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,4-OH-3-CH3-Indolyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,4-Pentenyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,3-CH3-Indolyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,Phenylethyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,4-Methoxy-3-CH3-Indolyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,1-Methoxy-3-CH3-Indolyl,µmol/g,1,approved,source_article,table,10.1093/jas/skab135,Source table states glucosinolates in µmol/g
+composition,Zearalenone,µg/kg,1,approved,user_curation,term_review,2026-08-10,User-confirmed mycotoxin unit

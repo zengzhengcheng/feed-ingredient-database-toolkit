@@ -1,0 +1,23 @@
+ingredient_name,primary_observations,primary_samples,primary_studies,complete_case_observations,complete_case_samples,complete_case_studies
+Corn,55,54,10,53,52,9
+Corn Bran,1,1,1,1,1,1
+Corn Bran With Solubles,1,1,1,1,1,1
+Corn DDGS,28,28,4,27,27,3
+Corn Dried Distillers Solubles,1,1,1,1,1,1
+Corn Germ,1,1,1,1,1,1
+Corn Germ Meal,3,3,3,3,3,3
+Corn Gluten Feed,15,15,4,13,13,4
+Corn Protein,16,16,2,16,16,2
+Faba Bean,1,1,1,0,0,0
+Peanut Meal,1,1,1,1,1,1
+Rapeseed Meal,2,2,1,2,2,1
+Soybean,10,10,1,10,10,1
+Sunflower Meal,1,1,1,1,1,1
+Wheat Bran,26,26,3,26,26,3
+co-fermented wheat–corn DDGS,1,1,1,0,0,0
+defatted rice bran,1,1,1,1,1,1
+distillers dried grains,3,3,1,3,3,1
+full fat rice bran,2,2,2,2,2,2
+sorghum,2,2,1,0,0,0
+soybean meal,31,30,6,10,9,4
+wheat,2,2,1,0,0,0

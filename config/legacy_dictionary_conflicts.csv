@@ -1,0 +1,11 @@
+﻿category,context,raw_term,canonical_term,source_table,source_id,reason
+metric,AID,"苯丙氨酸,%",Cysteine,digestible_nutrient_name,3023,The same legacy alias maps to more than one canonical term in the same context
+metric,AID,"苯丙氨酸,%",Phenylalanine,digestible_nutrient_name,3010,The same legacy alias maps to more than one canonical term in the same context
+metric,AID,"苯丙氨酸, %",Cysteine,digestible_nutrient_name,3023,The same legacy alias maps to more than one canonical term in the same context
+metric,AID,"苯丙氨酸, %",Phenylalanine,digestible_nutrient_name,3010,The same legacy alias maps to more than one canonical term in the same context
+metric,AID,Phe,Cysteine,digestible_nutrient_name,3023,The same legacy alias maps to more than one canonical term in the same context
+metric,AID,Phe,Phenylalanine,digestible_nutrient_name,3010,The same legacy alias maps to more than one canonical term in the same context
+metric,AID,Phe%,Cysteine,digestible_nutrient_name,3023,The same legacy alias maps to more than one canonical term in the same context
+metric,AID,Phe%,Phenylalanine,digestible_nutrient_name,3010,The same legacy alias maps to more than one canonical term in the same context
+metric,composition,阴阳离子平衡值mEq/100g,阴阳离子平衡值mEq/100g,nutrient_name,11010,The same legacy alias maps to more than one canonical term in the same context
+metric,composition,阴阳离子平衡值mEq/100g,阴阳离子平衡（mEq.100 g-1）,nutrient_name,11019,The same legacy alias maps to more than one canonical term in the same context

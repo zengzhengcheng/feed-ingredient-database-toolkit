@@ -1,0 +1,49 @@
+study_id,study_title,ingredient_sample_id,ingredient_name,nutrition_observation_id,CP,EE,Ash,NDF,ADF,GE,NE,composition_unit,GE_unit,target_unit,basis
+2,Determination of the energy value of corn distillers dried grains with solubles containing different oil levels when fed to growing pigs,11,Corn DDGS,13,32.1,12.6,5.1,26.8,7.4,22.3,10.5,%,MJ/kg,MJ/kg,dry matter
+2,Determination of the energy value of corn distillers dried grains with solubles containing different oil levels when fed to growing pigs,12,Corn DDGS,22,27.7,11.7,7.0,30.9,9.6,21.9,11.0,%,MJ/kg,MJ/kg,dry matter
+2,Determination of the energy value of corn distillers dried grains with solubles containing different oil levels when fed to growing pigs,13,Corn DDGS,31,33.6,8.3,4.6,28.9,8.7,21.8,11.0,%,MJ/kg,MJ/kg,dry matter
+2,Determination of the energy value of corn distillers dried grains with solubles containing different oil levels when fed to growing pigs,14,Corn DDGS,40,33.8,5.3,3.8,39.6,12.5,20.9,9.5,%,MJ/kg,MJ/kg,dry matter
+2,Determination of the energy value of corn distillers dried grains with solubles containing different oil levels when fed to growing pigs,15,Corn DDGS,49,32.9,4.0,4.8,39.3,9.6,20.6,9.3,%,MJ/kg,MJ/kg,dry matter
+14,"Net energy content of rice bran, corn germ meal, corn gluten feed, peanut meal, and sunflower meal in growing pigs",64,full fat rice bran,211,15.3,16.04,8.11,17.78,7.38,20.61,12.33,%,MJ/kg,MJ/kg,dry matter
+14,"Net energy content of rice bran, corn germ meal, corn gluten feed, peanut meal, and sunflower meal in growing pigs",65,Corn Germ Meal,218,21.53,2.07,1.85,50.3,14.38,19.31,8.75,%,MJ/kg,MJ/kg,dry matter
+14,"Net energy content of rice bran, corn germ meal, corn gluten feed, peanut meal, and sunflower meal in growing pigs",66,Corn Gluten Feed,225,23.05,2.34,5.7,42.27,12.7,18.58,7.51,%,MJ/kg,MJ/kg,dry matter
+14,"Net energy content of rice bran, corn germ meal, corn gluten feed, peanut meal, and sunflower meal in growing pigs",67,Peanut Meal,232,52.63,1.9,6.85,18.87,7.43,19.17,10.75,%,MJ/kg,MJ/kg,dry matter
+14,"Net energy content of rice bran, corn germ meal, corn gluten feed, peanut meal, and sunflower meal in growing pigs",68,Sunflower Meal,239,32.49,1.93,8.51,43.51,28.97,19.13,6.49,%,MJ/kg,MJ/kg,dry matter
+15,"Net energy content of rice bran, defatted rice bran, corn gluten feed, and corn germ meal fed to growing pigs using indirect calorimetry1",71,full fat rice bran,246,15.8,19.0,8.8,22.1,9.5,21.792316,12.357072,%,MJ/kg,MJ/kg,dry matter
+15,"Net energy content of rice bran, defatted rice bran, corn gluten feed, and corn germ meal fed to growing pigs using indirect calorimetry1",72,defatted rice bran,253,16.7,1.1,11.5,33.5,20.8,17.296552,4.6046,%,MJ/kg,MJ/kg,dry matter
+15,"Net energy content of rice bran, defatted rice bran, corn gluten feed, and corn germ meal fed to growing pigs using indirect calorimetry1",73,Corn Gluten Feed,260,24.1,4.8,6.6,32.3,9.0,19.247228,7.312942,%,MJ/kg,MJ/kg,dry matter
+15,"Net energy content of rice bran, defatted rice bran, corn gluten feed, and corn germ meal fed to growing pigs using indirect calorimetry1",74,Corn Germ Meal,267,26.4,1.8,6.9,32.9,10.0,18.548166,8.702694,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,119,Corn,894,9.32,4.48,1.49,13.4,3.85,18.48,12.62,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,120,Corn,897,9.32,4.48,1.49,13.4,3.85,18.48,12.73,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,121,Corn,900,8.79,3.89,1.69,11.21,2.84,18.29,12.85,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,122,Corn,903,8.79,3.89,1.69,11.21,2.84,18.29,12.99,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,123,Corn,906,9.08,4.16,1.28,13.66,3.81,18.52,12.74,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,124,Corn,909,9.08,4.16,1.28,13.66,3.81,18.52,12.82,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,125,Corn,912,9.08,4.16,1.28,13.66,3.81,18.52,13.03,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,126,Corn,915,9.08,4.16,1.28,13.66,3.81,18.52,12.53,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,127,Corn,918,9.72,4.63,1.45,12.34,3.83,18.36,12.16,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,128,Corn,921,9.72,4.63,1.45,12.34,3.83,18.36,12.64,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,129,Corn,924,9.72,4.63,1.45,12.34,3.83,18.36,12.68,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,130,Corn,927,9.72,4.63,1.45,12.34,3.83,18.36,12.63,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,131,Corn,930,9.58,3.52,1.27,13.16,3.95,18.32,13.09,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,132,Corn,933,9.58,3.52,1.27,13.16,3.95,18.32,12.88,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,133,Corn,936,9.58,3.52,1.27,13.16,3.95,18.32,12.72,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,134,Corn,939,9.58,3.52,1.27,13.16,3.95,18.32,12.85,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,135,Corn,942,9.15,3.76,1.34,13.57,3.58,18.41,12.62,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,136,Corn,945,9.15,3.76,1.34,13.57,3.58,18.41,12.66,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,137,Corn,948,9.15,3.76,1.34,13.57,3.58,18.41,12.35,%,MJ/kg,MJ/kg,dry matter
+20,Physicochemical properties and energy content of yellow dent corn from different climatic origins in growing pigs,138,Corn,951,9.15,3.76,1.34,13.57,3.58,18.41,12.49,%,MJ/kg,MJ/kg,dry matter
+46,Effect of experimental methodology on fasting heat production and the net energy content of corn and soybean meal fed to growing pigs,308,Corn,2745,9.59,2.49,1.22,8.32,1.82,18.49,13.21,%,MJ/kg,MJ/kg,dry matter
+46,Effect of experimental methodology on fasting heat production and the net energy content of corn and soybean meal fed to growing pigs,308,Corn,2748,9.59,2.49,1.22,8.32,1.82,18.49,13.69,%,MJ/kg,MJ/kg,dry matter
+46,Effect of experimental methodology on fasting heat production and the net energy content of corn and soybean meal fed to growing pigs,309,soybean meal,2751,50.75,1.74,6.58,12.83,6.86,19.54,10.4,%,MJ/kg,MJ/kg,dry matter
+46,Effect of experimental methodology on fasting heat production and the net energy content of corn and soybean meal fed to growing pigs,309,soybean meal,2754,50.75,1.74,6.58,12.83,6.86,19.54,10.62,%,MJ/kg,MJ/kg,dry matter
+77,"Net energy of corn,soybean meal and rapeseed meal in growing pigs",504,Corn,5499,9.2,3.0,1.2,14.0,25.0,18.44,12.46,%,MJ/kg,MJ/kg,dry matter
+77,"Net energy of corn,soybean meal and rapeseed meal in growing pigs",505,soybean meal,5504,48.5,12.0,6.2,17.1,10.0,19.5,11.34,%,MJ/kg,MJ/kg,dry matter
+77,"Net energy of corn,soybean meal and rapeseed meal in growing pigs",506,Rapeseed Meal,5509,39.2,9.5,6.4,37.0,22.8,21.33,11.71,%,MJ/kg,MJ/kg,dry matter
+77,"Net energy of corn,soybean meal and rapeseed meal in growing pigs",507,Rapeseed Meal,5514,42.4,1.1,7.0,30.8,20.7,19.54,8.83,%,MJ/kg,MJ/kg,dry matter
+99,Net energy and its establishment of prediction equations for wheat bran in growing pigs,609,Wheat Bran,6955,17.32,2.13,6.66,51.01,14.47,18.72,6.79,%,MJ/kg,MJ/kg,dry matter
+99,Net energy and its establishment of prediction equations for wheat bran in growing pigs,610,Wheat Bran,6963,18.84,1.97,5.78,39.63,10.44,19.15,7.94,%,MJ/kg,MJ/kg,dry matter
+99,Net energy and its establishment of prediction equations for wheat bran in growing pigs,611,Wheat Bran,6971,19.84,2.87,4.82,34.23,9.01,19.07,8.15,%,MJ/kg,MJ/kg,dry matter
+99,Net energy and its establishment of prediction equations for wheat bran in growing pigs,612,Wheat Bran,6979,17.06,2.7,5.66,42.39,11.28,19.0,6.87,%,MJ/kg,MJ/kg,dry matter
+99,Net energy and its establishment of prediction equations for wheat bran in growing pigs,613,Wheat Bran,6987,17.09,1.82,5.62,45.44,11.95,19.02,7.33,%,MJ/kg,MJ/kg,dry matter
+99,Net energy and its establishment of prediction equations for wheat bran in growing pigs,614,Wheat Bran,6995,19.03,2.15,5.24,40.06,10.74,19.24,7.93,%,MJ/kg,MJ/kg,dry matter

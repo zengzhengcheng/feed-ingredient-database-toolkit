@@ -1,0 +1,39 @@
+{
+  "format_version": "1.0",
+  "metadata": {
+    "title": "Example feed ingredient study without a DOI",
+    "doi": null,
+    "journal": "Example Journal",
+    "publication_year": 2025,
+    "species": "pig",
+    "country": "China"
+  },
+  "composition_metrics": [
+    {"metric": "CP", "unit": "%", "basis": "dry matter"},
+    {"metric": "Zinc", "unit": "mg/kg", "basis": "dry matter"},
+    {"metric": "Aflatoxin B1", "unit": "µg/kg", "basis": "dry matter"}
+  ],
+  "ingredients": [
+    {
+      "ingredient_key": "I001",
+      "raw_name": "corn",
+      "source_ingredient_no": "1",
+      "feed_type": "grain",
+      "processing_technic": null,
+      "place_of_origin": "China",
+      "reported_basis": "dry matter",
+      "dry_matter_value": 88.0,
+      "values": [9.5, 25.0, null]
+    }
+  ],
+  "animals": [
+    {"animal_group_key": "A001", "trial_no": "1", "species": "pig", "breed": "Duroc", "body_weight_kg": 25}
+  ],
+  "nutrition_metrics": [
+    {"metric": "ME", "context": "energy", "unit": "kJ/kg", "basis": "dry matter"},
+    {"metric": "Lysine", "context": "SID", "unit": "%", "basis": "dry matter"}
+  ],
+  "nutrition_rows": [
+    {"ingredient_key": "I001", "animal_group_key": "A001", "values": [13500, 0.94]}
+  ]
+}
