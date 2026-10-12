@@ -116,7 +116,7 @@ class MetricCatalogManager(QWidget):
 
     def _apply_context_default(self):
         if self.selected_id is None:
-            self.unit.setCurrentText("kJ/kg" if self.context.currentText().casefold() == "energy" else "%")
+            self.unit.setCurrentText("MJ/kg" if self.context.currentText().casefold() == "energy" else "%")
 
     def refresh(self):
         with connect(self.database_path) as conn:

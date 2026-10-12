@@ -56,7 +56,7 @@ METRIC_CATALOG_SEEDS = [
     *(('composition', '维生素', metric, unit, 'dry matter') for metric, unit in VITAMINS),
     *(('composition', '抗营养因子', metric, unit, 'dry matter') for metric, unit in ANTINUTRITIONAL_FACTORS),
     *(('composition', '霉菌毒素', metric, 'µg/kg', 'dry matter') for metric in MYCOTOXINS),
-    *(('energy', '常用能量', metric, 'kJ/kg', 'dry matter') for metric in
+    *(('energy', '常用能量', metric, 'MJ/kg', 'dry matter') for metric in
       ("GE", "DE", "ME", "NE", "AME", "AMEn")),
     *(('AID', '必需氨基酸', metric, '%', 'not applicable') for metric in ESSENTIAL_AMINO_ACIDS),
     *(('AID', '非必需氨基酸', metric, '%', 'not applicable') for metric in NONESSENTIAL_AMINO_ACIDS),

@@ -385,7 +385,7 @@ def test_editable_metric_catalog_has_scientific_groups_and_units(tmp_path: Path)
             "SELECT default_unit FROM metric_catalog WHERE canonical_metric='Aflatoxin B1'"
         ).fetchone()[0]
     assert (essential, nonessential) == (10, 8)
-    assert energy_units == {"kJ/kg"}
+    assert energy_units == {"MJ/kg"}
     assert {"常用组分", "微量元素", "维生素", "抗营养因子", "霉菌毒素"} <= groups
     assert aflatoxin_unit == "µg/kg"
 
@@ -722,7 +722,7 @@ def test_main_window_switches_chinese_and_english_without_changing_data_codes(tm
     assert metric_dialog.buttons.button(QDialogButtonBox.StandardButton.Ok).text() == "OK"
     window.metric_catalog_manager.clear_form()
     window.metric_catalog_manager.context.setCurrentText("energy")
-    assert window.metric_catalog_manager.unit.currentText() == "kJ/kg"
+    assert window.metric_catalog_manager.unit.currentText() == "MJ/kg"
     window.metric_catalog_manager.context.setCurrentText("composition")
     assert window.metric_catalog_manager.unit.currentText() == "%"
     with connect(database) as conn:
@@ -867,7 +867,7 @@ def test_unit_aliases_metric_rules_and_context_defaults():
     explicit_tmen = resolver.resolve("TMEn", "energy", "TMEn", explicit_unit="MJ/kg")
     assert (explicit_tmen.canonical_unit, explicit_tmen.resolution_method) == ("MJ/kg", "explicit_field")
     unknown_energy = resolver.resolve("Novel energy", "energy", "Novel energy")
-    assert (unknown_energy.canonical_unit, unknown_energy.resolution_method) == ("kJ/kg", "context_default")
+    assert (unknown_energy.canonical_unit, unknown_energy.resolution_method) == ("MJ/kg", "context_default")
     ordinary_component = resolver.resolve("Novel component", "composition", "Novel component")
     assert (ordinary_component.canonical_unit, ordinary_component.resolution_method) == ("%", "context_default")
     aid = resolver.resolve("Novel AID metric", "AID", "Novel AID metric")
@@ -926,7 +926,7 @@ def test_energy_value_magnitude_resolution_and_complete_unit_options():
     assert (kilocalorie.canonical_unit, kilocalorie.resolution_method) == ("kcal/kg", "value_magnitude_rule")
     ambiguous = resolver.resolve("Novel energy", "energy", "Novel energy", reported_value=250)
     assert (ambiguous.canonical_unit, ambiguous.resolution_method, ambiguous.status) == (
-        "kJ/kg", "context_default", "approved"
+        "MJ/kg", "context_default", "approved"
     )
     assert "not distinctive" in ambiguous.warning
     explicit = resolver.resolve("TMEn", "energy", "TMEn", explicit_unit="kJ/kg", reported_value=13.6)

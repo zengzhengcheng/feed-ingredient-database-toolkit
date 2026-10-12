@@ -1,14 +1,14 @@
 {
-  "version_date": "2026-08-14",
-  "software_release": "v1.0.0",
+  "version_date": "2026-10-12",
+  "software_release": "v1.0.1",
   "repository": {
     "owner": "zengzhengcheng",
     "name": "feed-ingredient-database-toolkit",
     "repository_url": "https://github.com/zengzhengcheng/feed-ingredient-database-toolkit",
-    "release_url": "https://github.com/zengzhengcheng/feed-ingredient-database-toolkit/releases/tag/v1.0.0",
+    "release_url": "https://github.com/zengzhengcheng/feed-ingredient-database-toolkit/releases/tag/v1.0.1",
     "expected_visibility": "public",
     "expected_default_branch": "main",
-    "release_tag": "v1.0.0",
+    "release_tag": "v1.0.1",
     "related_article_or_project": "Not applicable",
     "code_license": "MIT",
     "license_path": "LICENSE",
@@ -21,7 +21,6 @@
     "operating_system": "Windows 11 10.0.26200",
     "python": "3.12.13",
     "pyqt6": "6.11.0",
-    "qt": "6.11.0",
     "openpyxl": "3.1.5",
     "pytest": "9.1.1",
     "scikit_learn": "1.5.1",
@@ -30,8 +29,8 @@
     "joblib": "1.5.3"
   },
   "automated_tests": {
-    "command": "conda run -n pyqt312 python -m pytest -q",
-    "passed": 80,
+    "command": "python -m pytest -q",
+    "passed": 87,
     "failed": 0,
     "result": "pass"
   },
@@ -49,35 +48,74 @@
     "models_retrained": false,
     "model_results_modified": false
   },
+  "json_example_gate": {
+    "energy_metric_unit": "MJ/kg",
+    "energy_value": 13.5,
+    "sid_lysine_unit": "%",
+    "sid_lysine_value": 94,
+    "percentage_point_contract_documented": true,
+    "passed": true
+  },
+  "version_gate": {
+    "package": "1.0.1",
+    "pyproject_contains_1_0_1": true,
+    "module_contains_1_0_1": true,
+    "readme_contains_v1_0_1": true
+  },
   "documentation": {
     "english_readme": "README.md",
     "chinese_readme": "README_CN.md",
     "relative_links_checked": 53,
-    "broken_relative_links": 0,
-    "local_absolute_path_hits": 0,
-    "obsolete_private_or_pending_code_license_hits": 0
+    "broken_relative_links": [],
+    "local_absolute_path_hits": []
   },
   "repository_boundary": {
-    "files_excluding_git": 121,
-    "formal_sqlite_or_working_database_files": [],
-    "formal_or_source_workbooks": [],
-    "allowed_blank_template": "templates/feed_ingredient_contribution_template.xlsx",
-    "article_pdf_or_full_text_files": [],
-    "internal_submission_files": [],
-    "source_image_or_ocr_files": [],
+    "files_excluding_git": 122,
+    "total_bytes_excluding_git": 34297425,
+    "forbidden_formal_data_or_source_files": [],
     "cache_or_temporary_files": [],
-    "possible_secret_hits": [],
+    "credential_name_hits": [],
+    "possible_secret_file_hits": [],
+    "allowed_blank_template": "templates/feed_ingredient_contribution_template.xlsx",
+    "trusted_model_files": [
+      "examples/metabolizable_energy_all_ingredients/models/model_metadata.json",
+      "examples/metabolizable_energy_all_ingredients/models/ordinary_linear_regression.joblib",
+      "examples/metabolizable_energy_all_ingredients/models/partial_least_squares.joblib",
+      "examples/metabolizable_energy_all_ingredients/models/random_forest.joblib",
+      "examples/metabolizable_energy_all_ingredients/models/ridge_regression.joblib",
+      "examples/net_energy_prediction/models/model_metadata.json",
+      "examples/net_energy_prediction/models/ordinary_linear_regression.joblib",
+      "examples/net_energy_prediction/models/partial_least_squares.joblib",
+      "examples/net_energy_prediction/models/random_forest.joblib",
+      "examples/net_energy_prediction/models/ridge_regression.joblib"
+    ],
+    "result_files": [
+      "examples/metabolizable_energy_all_ingredients/results/grouped_cv_metrics.json",
+      "examples/metabolizable_energy_all_ingredients/results/missingness_summary.csv",
+      "examples/metabolizable_energy_all_ingredients/results/model_comparison.png",
+      "examples/metabolizable_energy_all_ingredients/results/observed_vs_predicted.png",
+      "examples/metabolizable_energy_all_ingredients/results/primary_model_comparison.csv",
+      "examples/metabolizable_energy_all_ingredients/results/primary_out_of_fold_predictions.csv",
+      "examples/metabolizable_energy_all_ingredients/results/primary_per_study_metrics.csv",
+      "examples/metabolizable_energy_all_ingredients/results/sensitivity_model_comparison.csv",
+      "examples/metabolizable_energy_all_ingredients/results/sensitivity_out_of_fold_predictions.csv",
+      "examples/metabolizable_energy_all_ingredients/results/sensitivity_per_study_metrics.csv",
+      "examples/net_energy_prediction/results/grouped_cv_metrics.json",
+      "examples/net_energy_prediction/results/model_comparison.csv",
+      "examples/net_energy_prediction/results/model_comparison.png",
+      "examples/net_energy_prediction/results/observed_vs_predicted.png",
+      "examples/net_energy_prediction/results/out_of_fold_predictions.csv",
+      "examples/net_energy_prediction/results/per_study_metrics.csv"
+    ],
+    "json_files_parsed": 10,
+    "json_parse_errors": [],
     "license_file_present": true,
-    "example_result_figures": 4,
-    "trusted_example_model_artifacts": 8,
     "passed": true
   },
-  "query_rule_files": [
-    "examples/metabolizable_energy_all_ingredients/extract_pig_me_cohort.sql",
-    "examples/net_energy_prediction/extract_pig_ne_cohort.sql",
-    "examples/query_rules/01_原料成分查询.sql",
-    "examples/query_rules/02_动物营养价值查询.sql",
-    "examples/query_rules/03_候选词汇总.sql"
-  ],
+  "science_db_boundary": {
+    "current_public_dataset_doi": "10.57760/sciencedb.46393",
+    "current_public_dataset_version_statement": "V3",
+    "reviewer_revision_data_candidate_claimed_public": false
+  },
   "passed": true
 }

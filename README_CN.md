@@ -2,7 +2,14 @@
 
 本软件用于检查、核对、导入、查询、导出和持续扩充饲料原料组成及动物营养价值数据。
 
-当前公开软件版本：**v1.0.0**。
+当前公开软件版本：**v1.0.1**。
+
+### v1.0.1 修订内容
+
+- 缺失能量单位的通用可编辑默认值为 `MJ/kg`；来源明确的 `kJ/kg`、`kcal/kg` 等单位与数值保持不变。
+- AID/ATTD 的 GE 消化率优先使用已批准的 `%` 规则，不会被能量通用默认覆盖。
+- 合成 AI/Agent JSON 示例中的 SID Lysine 改为数值 `94`、单位 `%`，明确表示94个百分点，而不是 `0.94`。
+- 既有NE/ME模型文件和结果保持不变，本次未重训。
 
 [English README](README.md) · [完整使用指南](docs/USER_GUIDE.md) · [Excel 填写说明](docs/excel_entry_guide.md) · [词典说明](docs/dictionary_guide.md)
 
@@ -17,8 +24,10 @@
 本 GitHub 仓库只放软件、测试、空白模板、词典种子、只读 SQL 规则、文档和复用示例。正式数据、110 个公开工作簿、交换表和只读发布 SQLite 单独存放于 ScienceDB。
 
 - GitHub：`https://github.com/zengzhengcheng/feed-ingredient-database-toolkit`
-- ScienceDB：`ScienceDB URL：待作者发布后补充`
+- ScienceDB：[可溯源且可扩展的历史饲料原料组成与营养价值数据集](https://doi.org/10.57760/sciencedb.46393)
 - 关联文章或项目：**Not applicable**
+
+上述ScienceDB DOI当前指向已公开的V3数据集。2026年10月审稿修订数据候选仍在本地，本README不声称该修订数据已经公开。
 
 本仓库不包含来源论文、正式数据副本、工作数据库、日粮配方或用户数据。
 
@@ -76,6 +85,8 @@ python -m pip install -e ".[modeling]"
 
 用户自己的 AI 或脚本可以按照 [integrations/contribution.schema.json](integrations/contribution.schema.json) 生成 JSON。推荐仍然先导入界面核对，不要跳过人工确认。
 
+JSON数值按指标顺序对应。单位为`%`时填写百分点：`94`表示`94%`，不是`0.94`。示例中的SID Lysine只是合成教学值，不能据此改写真实研究数据。
+
 ## 不认识的组分、单位和原料名怎么办
 
 ### 新组分或指标
@@ -89,7 +100,7 @@ python -m pip install -e ".[modeling]"
 
 - 显式单位优先，软件不会用默认值覆盖来源单位。
 - 指标名称在英文逗号 `,` 或中文逗号 `，` 后带已知单位时，软件会自动提取。
-- 新 energy 指标的可编辑默认单位为 `kJ/kg`。
+- 新 energy 指标的可编辑默认单位为 `MJ/kg`；AID/ATTD语境中的GE消化率优先使用`%`；原文明示的 `kJ/kg`、`kcal/kg` 仍按原单位保留，系统不静默换算数值。
 - 普通 composition 指标的可编辑默认单位为 `%`。
 - 历史 AME、TMEn 等已批准指标专属规则优先于通用默认。
 - 软件保留来源单位和最终采用单位，不静默换算原始数值。
@@ -188,3 +199,5 @@ conda run -n pyqt312 python -m pytest -q
 ## 许可证
 
 本软件依据 [MIT License](LICENSE) 开源发布。Copyright (c) 2026 zengzhengcheng。
+
+Zenodo软件版本族概念DOI：[10.5281/zenodo.22252121](https://doi.org/10.5281/zenodo.22252121)。

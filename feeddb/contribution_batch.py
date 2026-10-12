@@ -131,7 +131,7 @@ def _numeric_range_warning(location: str, metric: MetricSpec, value: object) -> 
         reasons.append("kJ/kg能量值高于常见范围")
     if context == "energy" and unit == "kj/kg" and 0 < abs(number) < 500:
         reasons.append("kJ/kg能量值低于常见范围，可能实际为MJ/kg")
-    if context == "energy" and unit == "mj/kg" and number > 100:
+    if unit == "mj/kg" and number > 100:
         reasons.append("MJ/kg能量值高于常见范围")
     if context == "energy" and unit == "kcal/kg" and not 500 <= abs(number) < 8_000:
         reasons.append("kcal/kg能量值不在常见量级")

@@ -135,7 +135,7 @@ class MetricDialog(QDialog):
         hint = QLabel(
             "单位和基础按指标保存。建议单位排在前面，同时保留系统全部已知单位。"
             "能量未填单位时先用指标规则，再按数值量级判定MJ/kg、kcal/kg或kJ/kg；"
-            "量级不能唯一判断时分配可编辑的kJ/kg默认值并提示核对。"
+            "量级不能唯一判断时分配可编辑的MJ/kg默认值并提示核对。"
         )
         hint.setWordWrap(True); layout.addWidget(hint)
         self.buttons = QDialogButtonBox(QDialogButtonBox.StandardButton.Ok | QDialogButtonBox.StandardButton.Cancel)
@@ -220,7 +220,7 @@ class MetricDialog(QDialog):
                 ):
                     name = str(row[0])
                     if name.casefold() not in known:
-                        rows.append(("名称词典其他指标", name, "kJ/kg" if context == "energy" else "%", ""))
+                        rows.append(("名称词典其他指标", name, "MJ/kg" if context == "energy" else "%", ""))
                         known.add(name.casefold())
         return rows
 
@@ -245,7 +245,7 @@ class MetricDialog(QDialog):
             self.list.addItem(item)
         self._loading = False
         defaults = {unit for _, _, unit, _ in rows if unit}
-        selected_default = defaults.pop() if len(defaults) == 1 else ("kJ/kg" if context == "energy" else "%")
+        selected_default = defaults.pop() if len(defaults) == 1 else ("MJ/kg" if context == "energy" else "%")
         group_name = self._selected_group()
         self._set_unit_options(
             context,

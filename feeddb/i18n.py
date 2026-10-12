@@ -60,7 +60,7 @@ TRANSLATIONS = {
     "新指标": "New Metric",
     "单位": "Unit",
     "基础": "Basis",
-    "单位和基础按指标保存。建议单位排在前面，同时保留系统全部已知单位。能量未填单位时先用指标规则，再按数值量级判定MJ/kg、kcal/kg或kJ/kg；量级不能唯一判断时分配可编辑的kJ/kg默认值并提示核对。": "Units and bases are stored per metric. Likely units are ranked first while the full approved unit list remains available. Blank energy units use metric rules and then value magnitude to distinguish MJ/kg, kcal/kg, or kJ/kg; ambiguous magnitudes receive an editable kJ/kg default plus a review warning.",
+    "单位和基础按指标保存。建议单位排在前面，同时保留系统全部已知单位。能量未填单位时先用指标规则，再按数值量级判定MJ/kg、kcal/kg或kJ/kg；量级不能唯一判断时分配可编辑的MJ/kg默认值并提示核对。": "Units and bases are stored per metric. Likely units are ranked first while the full approved unit list remains available. Blank energy units use metric rules and then value magnitude to distinguish MJ/kg, kcal/kg, or kJ/kg; ambiguous magnitudes receive an editable MJ/kg default plus a review warning.",
     "文件是唯一数据入口：选择历史 Excel、标准 Excel 或 JSON，系统先把论文元信息、原料成分和动物营养价值载入草稿。本页只用于核对和修改；导入不会写数据库，确认后才整批保存。标题必填，DOI 可空。": "Files are the only data-entry route. Select historical Excel, standard Excel, or JSON to load article metadata, ingredient composition, and animal nutritional values into a review draft. Loading does not write the database; the full batch is saved only after confirmation. Title is required and DOI is optional.",
     "从文件识别的论文元信息（可核对修改）": "Article Metadata Detected from File (editable)",
     "必填；中文或英文原题": "Required; original Chinese or English title",

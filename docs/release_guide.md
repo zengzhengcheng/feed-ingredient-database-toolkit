@@ -8,17 +8,17 @@
 conda run -n pyqt312 feeddb build-release `
   path\to\source_workbooks `
   database\contribution_workspace.sqlite `
-  release_working\v1.0.0 `
+  release_working\v1.0.1 `
   --duplicate-resolution config\duplicate_resolution.csv `
   --rights-review config\rights_review.csv `
-  --release-version v1.0.0 `
+  --release-version v1.0.1 `
   --data-license "CC BY 4.0"
 ```
 
 `check-release` 可以在人工修改权利审查或许可后重新运行：
 
 ```powershell
-conda run -n pyqt312 feeddb check-release release_working\v1.0.0
+conda run -n pyqt312 feeddb check-release release_working\v1.0.1
 ```
 
 构建命令拒绝写入非空输出目录，避免覆盖已有候选版。需要重新构建时应使用新的可读版本目录。
@@ -96,6 +96,6 @@ release_directory/
 
 ## 6. 数据仓库边界
 
-正式数据、公开工作簿、交换表和发布 SQLite 由 ScienceDB 数据记录管理（`ScienceDB URL：待作者发布后补充`），不进入本 GitHub 软件仓库。发布构建的实际记录数、权利状态和许可状态必须从当次生成的验证报告读取，不得把历史工作目录中的数字写死为当前事实。
+正式数据、公开工作簿、交换表和发布 SQLite 由ScienceDB数据记录（https://doi.org/10.57760/sciencedb.46393）管理，不进入本GitHub软件仓库。发布构建的实际记录数、权利状态和许可状态必须从当次生成的验证报告读取，不得把历史工作目录中的数字写死为当前事实。
 
 项目不生成文件哈希清单。发布版使用语义版本、日期、公开工作簿编号、逐表记录数和 ScienceDB DOI/CSTR 管理。

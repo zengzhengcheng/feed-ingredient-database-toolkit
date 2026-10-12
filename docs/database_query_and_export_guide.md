@@ -134,4 +134,4 @@ write.csv(data, "observations.csv", row.names = FALSE, fileEncoding = "UTF-8")
 
 ## 9. 引用与版本
 
-使用公开数据时，应引用论文和 ScienceDB 数据集记录，并注明所用数据库版本。ScienceDB DOI/CSTR 尚未生成时，仓库引用位置保留为待补字段；不要用本地文件路径代替正式数据引用。
+使用公开数据时，应引用ScienceDB数据集记录（https://doi.org/10.57760/sciencedb.46393），并注明所用数据库版本；不要用本地文件路径代替正式数据引用。

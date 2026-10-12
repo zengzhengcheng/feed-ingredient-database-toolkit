@@ -176,7 +176,7 @@ flowchart TD
     E -->|"否"| F{"指标目录有默认单位？"}
     F -->|"是"| F1["使用目录默认\nmethod=metric_catalog_default"]
     F -->|"否"| G{"可使用语境默认？"}
-    G -->|"energy"| G1["kJ/kg\nmethod=context_default"]
+    G -->|"energy"| G1["MJ/kg\nmethod=context_default"]
     G -->|"composition"| G2["%\nmethod=context_default"]
     G -->|"其他或规则冲突"| H["canonical_unit留空\nmethod=unresolved\n进入单位候选队列"]
     B1 --> Z["写canonical_unit、method、rule_reference\nraw_unit和raw_value不变"]
@@ -194,7 +194,7 @@ flowchart TD
 
 历史AME等指标若已由旧词典确认使用MJ/kg，指标专属规则优先。没有显式单位、也没有指标专属默认时，energy值按量级判断：低两位数通常对应MJ/kg，几千对应kcal/kg，上万对应kJ/kg；规则只补单位标签，绝不换算原始值。若数值不落入可唯一判别区间，或审查台账设有`review_required`且无足够数值证据，则保持`unresolved`进入核对。110篇中的37条TMEn和3条AMEs均为10.54–14.01量级，因此记录为MJ/kg并保存`value_magnitude_rule`证据。
 
-界面创建新指标时，`energy`的通用默认单位为`kJ/kg`，`composition`的通用默认单位为`%`。这是录入默认值，不覆盖显式来源单位、已批准的历史指标专属规则或能够唯一判定的能量数值量级证据。
+界面创建新指标时，`energy`的通用默认单位为`MJ/kg`，`composition`的通用默认单位为`%`。这是可编辑的录入建议，不覆盖显式来源单位、已批准的历史指标专属规则或能够唯一判定的能量数值量级证据，也不换算原始数值。`kJ/kg`和`kcal/kg`仍是受支持的显式单位。
 
 ## 5. 数据怎样检查
 

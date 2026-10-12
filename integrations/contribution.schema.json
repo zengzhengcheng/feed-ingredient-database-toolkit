@@ -41,9 +41,18 @@
       "properties": {
         "metric": {"type": "string", "minLength": 1},
         "context": {"enum": ["energy", "AID", "SID", "ATTD", "STTD", "CATTD"]},
-        "unit": {"type": ["string", "null"]},
+        "unit": {
+          "type": ["string", "null"],
+          "description": "Preserve an explicit source unit. When context is energy and the source omits the unit, the review interface proposes editable MJ/kg; it does not rescale value."
+        },
         "basis": {"type": ["string", "null"]}
-      }
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"context": {"const": "energy"}}, "required": ["context"]},
+          "then": {"properties": {"unit": {"default": "MJ/kg"}}}
+        }
+      ]
     },
     "ingredient": {
       "type": "object", "additionalProperties": false, "required": ["ingredient_key", "raw_name", "values"],
@@ -56,7 +65,11 @@
         "place_of_origin": {"type": ["string", "null"]},
         "reported_basis": {"type": ["string", "null"]},
         "dry_matter_value": {"$ref": "#/$defs/value"},
-        "values": {"type": "array", "items": {"$ref": "#/$defs/value"}}
+        "values": {
+          "type": "array",
+          "description": "Values align positionally with composition_metrics. For unit %, use percentage points (for example, 9.5 means 9.5%).",
+          "items": {"$ref": "#/$defs/value"}
+        }
       }
     },
     "animal": {
@@ -80,7 +93,11 @@
       "properties": {
         "ingredient_key": {"type": "string", "minLength": 1},
         "animal_group_key": {"type": "string", "minLength": 1},
-        "values": {"type": "array", "items": {"$ref": "#/$defs/value"}}
+        "values": {
+          "type": "array",
+          "description": "Values align positionally with nutrition_metrics. For unit %, use percentage points (for example, 94 means 94%, not 0.94).",
+          "items": {"$ref": "#/$defs/value"}
+        }
       }
     }
   }

@@ -138,7 +138,7 @@ class TermReviewWidget(QWidget):
         current = self.unit.currentText().strip()
         context = self.selected_context.split(" / ", 1)[0]
         if not current:
-            current = "kJ/kg" if context.casefold() == "energy" else (
+            current = "MJ/kg" if context.casefold() == "energy" else (
                 "%" if context.casefold() in {"composition", "aid", "sid", "attd", "sttd"} else ""
             )
         options = DEFAULT_UNIT_RESOLVER.possible_units(

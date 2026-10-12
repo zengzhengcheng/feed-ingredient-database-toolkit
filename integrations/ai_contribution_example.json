@@ -30,10 +30,10 @@
     {"animal_group_key": "A001", "trial_no": "1", "species": "pig", "breed": "Duroc", "body_weight_kg": 25}
   ],
   "nutrition_metrics": [
-    {"metric": "ME", "context": "energy", "unit": "kJ/kg", "basis": "dry matter"},
+    {"metric": "ME", "context": "energy", "unit": "MJ/kg", "basis": "dry matter"},
     {"metric": "Lysine", "context": "SID", "unit": "%", "basis": "dry matter"}
   ],
   "nutrition_rows": [
-    {"ingredient_key": "I001", "animal_group_key": "A001", "values": [13500, 0.94]}
+    {"ingredient_key": "I001", "animal_group_key": "A001", "values": [13.5, 94]}
   ]
 }

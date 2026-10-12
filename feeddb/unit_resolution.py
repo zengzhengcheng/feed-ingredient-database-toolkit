@@ -214,7 +214,7 @@ class UnitResolver:
             unit, status = self.canonicalize_unit(catalog)
             return UnitResolution(label, parsed_metric, "", unit, "metric_catalog_default", "metric_catalog.default_unit", status)
         context_default = {
-            "energy": "kJ/kg",
+            "energy": "MJ/kg",
             "composition": "%",
             "aid": "%",
             "sid": "%",
@@ -225,7 +225,7 @@ class UnitResolver:
         if context_default:
             warning = ""
             if _key(context) == "energy" and reported_value is not None:
-                warning = "Energy magnitude was not distinctive; the editable kJ/kg context default was assigned."
+                warning = "Energy magnitude was not distinctive; the editable MJ/kg context default was assigned."
             return UnitResolution(
                 label, parsed_metric, "", context_default, "context_default",
                 f"context:{_key(context)}", "approved", warning,

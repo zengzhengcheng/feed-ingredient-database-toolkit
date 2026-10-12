@@ -11,7 +11,7 @@ from pathlib import Path
 
 from openpyxl import load_workbook
 
-VERSION_DATE = "2026-08-14"
+VERSION_DATE = "2026-10-12"
 PUBLIC_SHEETS = ["Article Metadata", "Ingredient Data"]
 TEMPLATE_SHEETS = ["Instructions_说明", *PUBLIC_SHEETS]
 GITHUB_DIRECTORIES = (
@@ -208,7 +208,7 @@ def finalize_sciencedb(science: Path) -> dict[str, object]:
     (science / "documentation" / "repository_metadata.md").write_text(
         """# ScienceDB candidate metadata
 
-- Version date: 2026-08-14
+- Version date: 2026-10-12
 - Related article or project: Not applicable
 - Data license: Pending author decision
 - Repository record URL: Pending author decision
@@ -291,8 +291,8 @@ def assemble_github(source: Path, github: Path) -> dict[str, object]:
     (github / "REPOSITORY_METADATA.md").write_text(
         """# GitHub repository metadata
 
-- Version date: 2026-08-14
-- Public release: v1.0.0
+- Version date: 2026-10-12
+- Public release: v1.0.1
 - Repository: zengzhengcheng/feed-ingredient-database-toolkit
 - Repository URL: https://github.com/zengzhengcheng/feed-ingredient-database-toolkit
 - Visibility: public
@@ -300,18 +300,18 @@ def assemble_github(source: Path, github: Path) -> dict[str, object]:
 - Related article or project: Not applicable
 - Associated article setting: Do not set an associated article
 - Code license: MIT; see LICENSE
-- Release: https://github.com/zengzhengcheng/feed-ingredient-database-toolkit/releases/tag/v1.0.0
+- Release: https://github.com/zengzhengcheng/feed-ingredient-database-toolkit/releases/tag/v1.0.1
 """,
         encoding="utf-8",
     )
     (github / "RELEASE_BOUNDARY.md").write_text(
         """# Release boundary
 
-- Public software release: v1.0.0
+- Public software release: v1.0.1
 - Code license: MIT
 - Repository visibility: public
 
-This repository contains software, tests, editable read-only SQL query rules, blank contribution templates, seed dictionaries, and reproducible reuse examples. The formal 110 public workbooks, exchange tables, data dictionaries, and release SQLite database are data products distributed separately through ScienceDB (`ScienceDB URL: pending author release`).
+This repository contains software, tests, editable read-only SQL query rules, blank contribution templates, seed dictionaries, and reproducible reuse examples. The formal 110 public workbooks, exchange tables, data dictionaries, and release SQLite database are data products distributed separately through the currently published ScienceDB V3 record (https://doi.org/10.57760/sciencedb.46393). A local reviewer-revision data candidate must not be described as public until it is separately uploaded.
 
 Excluded here: the 110 formal workbooks, the formal release SQLite database, ScienceDB exchange tables, source article PDFs/full text, user working databases, diet/formulation data, and the complete ScienceDB data package.
 

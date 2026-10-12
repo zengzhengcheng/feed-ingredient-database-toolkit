@@ -1,18 +1,21 @@
 # GitHub repository metadata
 
-- Version date: 2026-08-14
-- Public release: `v1.0.0`
+- Version date: 2026-10-12
+- Public release: `v1.0.1`
 - Repository: `zengzhengcheng/feed-ingredient-database-toolkit`
 - Repository URL: https://github.com/zengzhengcheng/feed-ingredient-database-toolkit
 - Visibility: public
 - Default branch: main
 - Description: Tools for validating, importing, querying, and extending feed ingredient composition and nutritional-value datasets.
 - Topics: `feed-ingredients`, `animal-nutrition`, `sqlite`, `pyqt6`, `data-curation`, `excel-import`, `data-provenance`
-- Homepage: Not set; pending the ScienceDB URL or project page
+- Homepage: Not set
+- Formal dataset DOI: https://doi.org/10.57760/sciencedb.46393
+- Formal dataset status: DOI currently identifies the published V3 dataset; the October 2026 reviewer-revision data candidate is not claimed as public.
+- Zenodo concept DOI: https://doi.org/10.5281/zenodo.22252121
 - Issues: Enabled
 - Wiki: Disabled
 - Projects: Disabled
 - Related article or project: Not applicable
 - Associated article setting: Do not set an associated article
 - Code license: MIT; see [LICENSE](LICENSE)
-- Release: https://github.com/zengzhengcheng/feed-ingredient-database-toolkit/releases/tag/v1.0.0
+- Release: https://github.com/zengzhengcheng/feed-ingredient-database-toolkit/releases/tag/v1.0.1

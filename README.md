@@ -2,7 +2,14 @@
 
 Tools for validating, reviewing, importing, querying, exporting, and extending feed-ingredient composition and animal-context nutritional-value datasets.
 
-Current public software release: **v1.0.0**.
+Current public software release: **v1.0.1**.
+
+### v1.0.1 correction release
+
+- Uses editable `MJ/kg` as the general default for omitted energy units while preserving explicit `kJ/kg`, `kcal/kg`, and other source units without rescaling values.
+- Applies the approved `%` unit rule to AID/ATTD gross-energy digestibility coefficients before any general energy default.
+- Corrects the synthetic AI/agent JSON example so SID Lysine is represented as `94` with unit `%` (94 percentage points), not `0.94`.
+- Retains the published NE/ME model files and results unchanged; no model was retrained.
 
 [中文说明](README_CN.md) · [User guide](docs/USER_GUIDE.md) · [Excel guide](docs/excel_entry_guide.md) · [Dictionary guide](docs/dictionary_guide.md)
 
@@ -23,8 +30,10 @@ This repository contains software, tests, blank contribution templates, seed dic
 
 The formal dataset, 110 public workbooks, exchange tables, and read-only release SQLite database are distributed separately through ScienceDB.
 
-- ScienceDB dataset: `ScienceDB URL: pending author release`
+- ScienceDB dataset: [A traceable and extensible dataset of historical feed ingredient composition and nutritional values](https://doi.org/10.57760/sciencedb.46393)
 - Related article or project: **Not applicable**
+
+The ScienceDB DOI currently resolves to the published V3 dataset. The October 2026 reviewer-revision data candidate is local and is not claimed here as already public.
 
 ## Installation
 
@@ -91,6 +100,8 @@ Important entry rules:
 
 The JSON schema and example are in [integrations/contribution.schema.json](integrations/contribution.schema.json) and [integrations/ai_contribution_example.json](integrations/ai_contribution_example.json).
 
+JSON values are positional. When the corresponding unit is `%`, enter percentage points (`94` means `94%`, not `0.94`). The bundled SID Lysine value is a synthetic teaching example and must not be used to rewrite real study values.
+
 ## Query, fuzzy search, SQL rules, and export
 
 The query page searches titles, DOI values, ingredients, metrics, and animal information. Approved aliases participate in fuzzy matching. Similar names are suggestions for review, not automatic merge decisions.
@@ -116,7 +127,7 @@ The separate `metric_catalog` controls common selectable metrics, groups, defaul
 
 Unknown names remain attached to their observations as `candidate` mappings. A curator can map a candidate to an existing canonical item, create a genuinely new item, or defer the decision. The raw term is retained in every case.
 
-For units, explicit source evidence has priority. A recognized unit after an English or Chinese comma in a metric label is extracted. New energy metrics default to editable `kJ/kg`; ordinary composition defaults to editable `%`; approved metric-specific rules and explicit units take priority. The software does not silently rescale reported values.
+For units, explicit source evidence has priority. A recognized unit after an English or Chinese comma in a metric label is extracted. New energy metrics default to editable `MJ/kg`; ordinary composition defaults to editable `%`; approved metric-specific rules and explicit units take priority. In particular, AID/ATTD GE digestibility coefficients use `%` before the general energy default. Explicit `kJ/kg` and `kcal/kg` remain recognized and are never overwritten. The software does not silently rescale reported values.
 
 See [docs/dictionary_guide.md](docs/dictionary_guide.md) and [docs/dictionary_inventory.md](docs/dictionary_inventory.md).
 
@@ -190,7 +201,9 @@ The latest verification result and environment details are recorded in [RELEASE_
 
 Related article or project: **Not applicable**.
 
-The ScienceDB record URL and dataset citation will be added after the author completes the repository record. Until then, do not substitute a local file path for a persistent dataset citation.
+The currently published V3 dataset is deposited in ScienceDB under DOI [10.57760/sciencedb.46393](https://doi.org/10.57760/sciencedb.46393). Cite the ScienceDB dataset record when using the formal workbooks, exchange tables, or release SQLite database. This software release does not state that the local reviewer-revision data candidate has already been uploaded.
+
+Versioned software archives are grouped under the Zenodo concept DOI [10.5281/zenodo.22252121](https://doi.org/10.5281/zenodo.22252121).
 
 ## License
 
