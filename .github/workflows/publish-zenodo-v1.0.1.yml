@@ -1,0 +1,42 @@
+name: Publish Zenodo v1.0.1 archive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Publish fixed v1.0.1 tag to existing Zenodo draft
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout publication automation
+        uses: actions/checkout@v4
+        with:
+          path: automation
+
+      - name: Checkout fixed software tag
+        uses: actions/checkout@v4
+        with:
+          ref: v1.0.1
+          fetch-depth: 0
+          path: release-src
+
+      - name: Build, verify, upload, and publish existing Zenodo draft
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_API_TOKEN }}
+        run: >-
+          python automation/.github/scripts/publish_zenodo_v1_0_1.py
+          --source release-src
+          --result zenodo-publication-result.json
+
+      - name: Preserve sanitized publication evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: zenodo-v1.0.1-publication-evidence
+          path: zenodo-publication-result.json
+          if-no-files-found: warn
+          retention-days: 30
