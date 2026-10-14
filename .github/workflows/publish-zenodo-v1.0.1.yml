@@ -31,12 +31,3 @@ jobs:
           python automation/.github/scripts/publish_zenodo_v1_0_1.py
           --source release-src
           --result zenodo-publication-result.json
-
-      - name: Preserve sanitized publication evidence
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: zenodo-v1.0.1-publication-evidence
-          path: zenodo-publication-result.json
-          if-no-files-found: warn
-          retention-days: 30
