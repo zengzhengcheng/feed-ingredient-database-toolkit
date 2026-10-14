@@ -222,6 +222,11 @@ def error_detail(body: bytes) -> dict[str, object]:
     return {"body_type": "empty"}
 
 
+def scrub_secret(text: str, secret: str | None = None) -> str:
+    value = secret if secret is not None else os.environ.get("ZENODO_TOKEN", "")
+    return text.replace(value, "[redacted]") if value else text
+
+
 def record_summary(value: object) -> dict[str, object]:
     if not isinstance(value, dict):
         return {}
@@ -261,10 +266,8 @@ class Client:
         self.result_path = result_path
 
     def save(self) -> None:
-        self.result_path.write_text(
-            json.dumps(self.result, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+        serialized = json.dumps(self.result, ensure_ascii=False, indent=2) + "\n"
+        self.result_path.write_text(scrub_secret(serialized, self.token), encoding="utf-8")
 
     def request(
         self,
@@ -279,11 +282,18 @@ class Client:
         timeout: int = 120,
     ) -> tuple[int, bytes, object | None]:
         data = body
+        parsed_url = urllib.parse.urlsplit(url)
+        if parsed_url.scheme != "https":
+            raise PublicationError("Only HTTPS requests are allowed")
+        is_zenodo = parsed_url.hostname == "zenodo.org"
+        if not is_zenodo and method != "GET":
+            raise PublicationError("Authenticated writes are restricted to zenodo.org")
         headers = {
-            "Authorization": f"Bearer {self.token}",
             "Accept": "application/json",
             "User-Agent": "feed-ingredient-database-toolkit-zenodo-v1.0.1",
         }
+        if is_zenodo:
+            headers["Authorization"] = f"Bearer {self.token}"
         if json_value is not None:
             data = json.dumps(json_value, ensure_ascii=False).encode("utf-8")
             content_type = "application/json"
@@ -345,6 +355,16 @@ class Client:
 
     def get_json_allow_404(self, operation: str, url: str) -> tuple[int, object | None]:
         status, _, parsed = self.request(operation, "GET", url, expected={200, 404}, timeout=60)
+        return status, parsed
+
+    def public_probe(self, operation: str, url: str) -> tuple[int, object | None]:
+        status, _, parsed = self.request(
+            operation,
+            "GET",
+            url,
+            expected={200, 404, 500, 502, 503, 504},
+            timeout=60,
+        )
         return status, parsed
 
     def get_bytes(self, operation: str, url: str, *, expected_size: int | None = None) -> bytes:
@@ -546,7 +566,7 @@ def publish_existing_draft(
     client = Client(token, result, result_path)
     archive_bytes = archive_path.read_bytes()
 
-    public_status, public_record = client.get_json_allow_404(
+    public_status, public_record = client.public_probe(
         "check_existing_public_record",
         f"{API}/records/{DRAFT_ID}",
     )
@@ -558,13 +578,28 @@ def publish_existing_draft(
         client.save()
         return result
 
-    _, _, draft = client.request(
+    draft_status, _, draft = client.request(
         "read_existing_draft",
         "GET",
         f"{API}/deposit/depositions/{DRAFT_ID}",
-        expected={200},
+        expected={200, 404},
         timeout=60,
     )
+    if draft_status == 404:
+        for attempt in range(1, 4):
+            retry_status, retry_record = client.public_probe(
+                f"public_recovery_after_missing_draft_attempt_{attempt}",
+                f"{API}/records/{DRAFT_ID}",
+            )
+            if retry_status == 200 and isinstance(retry_record, dict):
+                result["publication"] = verify_public(client, retry_record, archive_bytes)
+                result["status"] = "already_published_verified"
+                result["completed_utc"] = utc_now()
+                client.save()
+                return result
+            if attempt < 3:
+                time.sleep(5)
+        raise PublicationError("Draft is absent and the public record could not be verified")
     if not isinstance(draft, dict):
         raise PublicationError("Existing draft was not returned")
     assert_draft(draft, require_file=False, archive_size=len(archive_bytes))
@@ -645,7 +680,7 @@ def publish_existing_draft(
 
     published_record: dict[str, object] | None = None
     for attempt in range(1, 7):
-        status, candidate = client.get_json_allow_404(
+        status, candidate = client.public_probe(
             f"public_readback_after_publish_attempt_{attempt}",
             f"{API}/records/{DRAFT_ID}",
         )
@@ -686,9 +721,16 @@ def main() -> int:
             result = {}
         result["status"] = "failed"
         result["failed_utc"] = utc_now()
-        result["error"] = {"type": type(exc).__name__, "message": str(exc)[:4000]}
-        result_path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print("ZENODO_PUBLICATION_FAILED=" + json.dumps(result["error"], ensure_ascii=False))
+        result["error"] = {
+            "type": type(exc).__name__,
+            "message": scrub_secret(str(exc)[:4000]),
+        }
+        serialized = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
+        result_path.write_text(scrub_secret(serialized), encoding="utf-8")
+        print(
+            "ZENODO_PUBLICATION_FAILED="
+            + scrub_secret(json.dumps(result["error"], ensure_ascii=False))
+        )
         return 1
     publication = result.get("publication") if isinstance(result.get("publication"), dict) else {}
     print(
