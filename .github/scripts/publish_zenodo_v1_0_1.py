@@ -307,6 +307,11 @@ class Client:
             status = exc.code
             response_body = exc.read()
             entry["http_status"] = status
+            if status in expected:
+                entry["expected_response"] = error_detail(response_body)
+                self.result.setdefault("requests", []).append(entry)
+                self.save()
+                return status, response_body, parse_json(response_body)
             entry["error_response"] = error_detail(response_body)
             self.result.setdefault("requests", []).append(entry)
             self.save()
